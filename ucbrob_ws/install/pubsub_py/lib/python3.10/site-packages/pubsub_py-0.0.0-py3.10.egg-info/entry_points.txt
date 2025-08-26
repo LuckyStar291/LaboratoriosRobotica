@@ -1,0 +1,11 @@
+[console_scripts]
+Angulo = pubsub_py.pub_angles:main
+Client = pubsub_py.client_angles:main
+Destino = pubsub_py.destino:main
+Matrix = pubsub_py.sub_angles:main
+Origen = pubsub_py.origen:main
+Process = pubsub_py.process:main
+Publicador = pubsub_py.publicador:main
+Server = pubsub_py.server_angles:main
+Subscriptor = pubsub_py.subscriptor:main
+

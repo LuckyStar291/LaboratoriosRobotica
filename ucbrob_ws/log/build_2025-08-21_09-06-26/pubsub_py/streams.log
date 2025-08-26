@@ -1,0 +1,25 @@
+[0.666s] Invoking command in '/home/luz/Escritorio/ucbrob_ws/src/pubsub_py': PYTHONPATH=/home/luz/Escritorio/ucbrob_ws/build/pubsub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/ucbrob_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_py build --build-base /home/luz/Escritorio/ucbrob_ws/build/pubsub_py/build install --record /home/luz/Escritorio/ucbrob_ws/build/pubsub_py/install.log --single-version-externally-managed install_data
+[0.928s] running egg_info
+[0.929s] writing ../../build/pubsub_py/pubsub_py.egg-info/PKG-INFO
+[0.929s] writing dependency_links to ../../build/pubsub_py/pubsub_py.egg-info/dependency_links.txt
+[0.930s] writing entry points to ../../build/pubsub_py/pubsub_py.egg-info/entry_points.txt
+[0.930s] writing requirements to ../../build/pubsub_py/pubsub_py.egg-info/requires.txt
+[0.930s] writing top-level names to ../../build/pubsub_py/pubsub_py.egg-info/top_level.txt
+[0.933s] reading manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'
+[0.934s] adding license file 'LICENSE'
+[0.935s] writing manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'
+[0.936s] running build
+[0.936s] running build_py
+[0.937s] running install
+[0.938s] running install_lib
+[0.941s] running install_data
+[0.941s] running install_egg_info
+[0.944s] removing '/home/luz/Escritorio/ucbrob_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.944s] Copying ../../build/pubsub_py/pubsub_py.egg-info to /home/luz/Escritorio/ucbrob_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py-0.0.0-py3.10.egg-info
+[0.945s] running install_scripts
+[0.973s] Installing Origen script to /home/luz/Escritorio/ucbrob_ws/install/pubsub_py/lib/pubsub_py
+[0.973s] Installing Process script to /home/luz/Escritorio/ucbrob_ws/install/pubsub_py/lib/pubsub_py
+[0.973s] Installing Publicador script to /home/luz/Escritorio/ucbrob_ws/install/pubsub_py/lib/pubsub_py
+[0.973s] Installing Subscriptor script to /home/luz/Escritorio/ucbrob_ws/install/pubsub_py/lib/pubsub_py
+[0.974s] writing list of installed files to '/home/luz/Escritorio/ucbrob_ws/build/pubsub_py/install.log'
+[1.012s] Invoked command in '/home/luz/Escritorio/ucbrob_ws/src/pubsub_py' returned '0': PYTHONPATH=/home/luz/Escritorio/ucbrob_ws/build/pubsub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/ucbrob_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_py build --build-base /home/luz/Escritorio/ucbrob_ws/build/pubsub_py/build install --record /home/luz/Escritorio/ucbrob_ws/build/pubsub_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[0.157s] Invoking command in '/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/ucbrob_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces -- -j12 -l12
+[0.187s] Invoked command in '/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/ucbrob_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces -- -j12 -l12
+[0.194s] Invoking command in '/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/ucbrob_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces
+[0.202s] -- Install configuration: ""
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ament_index/resource_index/package_run_dependencies/ucb_interfaces
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ament_index/resource_index/parent_prefix_path/ucb_interfaces
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/environment/ament_prefix_path.sh
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/environment/ament_prefix_path.dsv
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/environment/path.sh
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/environment/path.dsv
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/local_setup.bash
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/local_setup.sh
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/local_setup.zsh
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/local_setup.dsv
+[0.202s] -- Installing: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/package.dsv
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ament_index/resource_index/packages/ucb_interfaces
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfacesConfig.cmake
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfacesConfig-version.cmake
+[0.202s] -- Up-to-date: /home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/package.xml
+[0.203s] Invoked command in '/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/ucbrob_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces

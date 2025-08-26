@@ -1,0 +1,9 @@
+/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces/CMakeFiles/uninstall.dir
+/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces/CMakeFiles/ucb_interfaces_uninstall.dir
+/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces/CMakeFiles/test.dir
+/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces/CMakeFiles/edit_cache.dir
+/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces/CMakeFiles/rebuild_cache.dir
+/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces/CMakeFiles/list_install_components.dir
+/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces/CMakeFiles/install.dir
+/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces/CMakeFiles/install/local.dir
+/home/luz/Escritorio/ucbrob_ws/build/ucb_interfaces/CMakeFiles/install/strip.dir

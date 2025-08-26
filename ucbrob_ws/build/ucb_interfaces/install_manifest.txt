@@ -1,0 +1,15 @@
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ament_index/resource_index/package_run_dependencies/ucb_interfaces
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ament_index/resource_index/parent_prefix_path/ucb_interfaces
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/environment/ament_prefix_path.sh
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/environment/ament_prefix_path.dsv
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/environment/path.sh
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/environment/path.dsv
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/local_setup.bash
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/local_setup.sh
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/local_setup.zsh
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/local_setup.dsv
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/package.dsv
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ament_index/resource_index/packages/ucb_interfaces
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfacesConfig.cmake
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfacesConfig-version.cmake
+/home/luz/Escritorio/ucbrob_ws/install/ucb_interfaces/share/ucb_interfaces/package.xml
