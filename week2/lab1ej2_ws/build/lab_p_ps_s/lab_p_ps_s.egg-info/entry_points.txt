@@ -1,0 +1,5 @@
+[console_scripts]
+Destino = lab_p_ps_s.destino:main
+Origen = lab_p_ps_s.origen:main
+Process = lab_p_ps_s.process:main
+

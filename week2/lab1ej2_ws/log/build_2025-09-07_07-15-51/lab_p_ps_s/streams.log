@@ -1,0 +1,24 @@
+[0.368s] Invoking command in '/home/luz/Escritorio/Robotica/week2/lab1ej2_ws/src/lab_p_ps_s': PYTHONPATH=/home/luz/Escritorio/Robotica/week2/lab1ej2_ws/build/lab_p_ps_s/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/week2/lab1ej2_ws/install/lab_p_ps_s/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab_p_ps_s build --build-base /home/luz/Escritorio/Robotica/week2/lab1ej2_ws/build/lab_p_ps_s/build install --record /home/luz/Escritorio/Robotica/week2/lab1ej2_ws/build/lab_p_ps_s/install.log --single-version-externally-managed install_data
+[0.511s] running egg_info
+[0.511s] writing ../../build/lab_p_ps_s/lab_p_ps_s.egg-info/PKG-INFO
+[0.512s] writing dependency_links to ../../build/lab_p_ps_s/lab_p_ps_s.egg-info/dependency_links.txt
+[0.512s] writing entry points to ../../build/lab_p_ps_s/lab_p_ps_s.egg-info/entry_points.txt
+[0.512s] writing requirements to ../../build/lab_p_ps_s/lab_p_ps_s.egg-info/requires.txt
+[0.512s] writing top-level names to ../../build/lab_p_ps_s/lab_p_ps_s.egg-info/top_level.txt
+[0.513s] reading manifest file '../../build/lab_p_ps_s/lab_p_ps_s.egg-info/SOURCES.txt'
+[0.513s] adding license file 'LICENSE'
+[0.513s] writing manifest file '../../build/lab_p_ps_s/lab_p_ps_s.egg-info/SOURCES.txt'
+[0.513s] running build
+[0.513s] running build_py
+[0.514s] running install
+[0.514s] running install_lib
+[0.515s] running install_data
+[0.515s] running install_egg_info
+[0.516s] removing '/home/luz/Escritorio/Robotica/week2/lab1ej2_ws/install/lab_p_ps_s/lib/python3.10/site-packages/lab_p_ps_s-0.0.0-py3.10.egg-info' (and everything under it)
+[0.516s] Copying ../../build/lab_p_ps_s/lab_p_ps_s.egg-info to /home/luz/Escritorio/Robotica/week2/lab1ej2_ws/install/lab_p_ps_s/lib/python3.10/site-packages/lab_p_ps_s-0.0.0-py3.10.egg-info
+[0.516s] running install_scripts
+[0.531s] Installing Destino script to /home/luz/Escritorio/Robotica/week2/lab1ej2_ws/install/lab_p_ps_s/lib/lab_p_ps_s
+[0.531s] Installing Origen script to /home/luz/Escritorio/Robotica/week2/lab1ej2_ws/install/lab_p_ps_s/lib/lab_p_ps_s
+[0.531s] Installing Process script to /home/luz/Escritorio/Robotica/week2/lab1ej2_ws/install/lab_p_ps_s/lib/lab_p_ps_s
+[0.531s] writing list of installed files to '/home/luz/Escritorio/Robotica/week2/lab1ej2_ws/build/lab_p_ps_s/install.log'
+[0.547s] Invoked command in '/home/luz/Escritorio/Robotica/week2/lab1ej2_ws/src/lab_p_ps_s' returned '0': PYTHONPATH=/home/luz/Escritorio/Robotica/week2/lab1ej2_ws/build/lab_p_ps_s/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/week2/lab1ej2_ws/install/lab_p_ps_s/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab_p_ps_s build --build-base /home/luz/Escritorio/Robotica/week2/lab1ej2_ws/build/lab_p_ps_s/build install --record /home/luz/Escritorio/Robotica/week2/lab1ej2_ws/build/lab_p_ps_s/install.log --single-version-externally-managed install_data

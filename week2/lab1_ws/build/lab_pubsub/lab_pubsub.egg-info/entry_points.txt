@@ -1,0 +1,4 @@
+[console_scripts]
+hablador = lab_pubsub.l1publisher:main
+oyente = lab_pubsub.l1suscriber:main
+
