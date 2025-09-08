@@ -1,0 +1,26 @@
+[0.368s] Invoking command in '/home/luz/Escritorio/Robotica/week3/lab2_ws/src/rotations_pkg': PYTHONPATH=/home/luz/Escritorio/Robotica/week3/lab2_ws/build/rotations_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rotations_pkg build --build-base /home/luz/Escritorio/Robotica/week3/lab2_ws/build/rotations_pkg/build install --record /home/luz/Escritorio/Robotica/week3/lab2_ws/build/rotations_pkg/install.log --single-version-externally-managed install_data
+[0.515s] running egg_info
+[0.515s] writing ../../build/rotations_pkg/rotations_pkg.egg-info/PKG-INFO
+[0.515s] writing dependency_links to ../../build/rotations_pkg/rotations_pkg.egg-info/dependency_links.txt
+[0.515s] writing entry points to ../../build/rotations_pkg/rotations_pkg.egg-info/entry_points.txt
+[0.515s] writing requirements to ../../build/rotations_pkg/rotations_pkg.egg-info/requires.txt
+[0.515s] writing top-level names to ../../build/rotations_pkg/rotations_pkg.egg-info/top_level.txt
+[0.516s] reading manifest file '../../build/rotations_pkg/rotations_pkg.egg-info/SOURCES.txt'
+[0.516s] adding license file 'LICENSE'
+[0.517s] writing manifest file '../../build/rotations_pkg/rotations_pkg.egg-info/SOURCES.txt'
+[0.517s] running build
+[0.517s] running build_py
+[0.517s] copying rotations_pkg/sub_angles.py -> /home/luz/Escritorio/Robotica/week3/lab2_ws/build/rotations_pkg/build/lib/rotations_pkg
+[0.517s] running install
+[0.517s] running install_lib
+[0.518s] copying /home/luz/Escritorio/Robotica/week3/lab2_ws/build/rotations_pkg/build/lib/rotations_pkg/sub_angles.py -> /home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg
+[0.518s] byte-compiling /home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg/sub_angles.py to sub_angles.cpython-310.pyc
+[0.519s] running install_data
+[0.519s] running install_egg_info
+[0.520s] removing '/home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.520s] Copying ../../build/rotations_pkg/rotations_pkg.egg-info to /home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg-0.0.0-py3.10.egg-info
+[0.520s] running install_scripts
+[0.535s] Installing angulo script to /home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/rotations_pkg
+[0.535s] Installing matriz script to /home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/rotations_pkg
+[0.535s] writing list of installed files to '/home/luz/Escritorio/Robotica/week3/lab2_ws/build/rotations_pkg/install.log'
+[0.551s] Invoked command in '/home/luz/Escritorio/Robotica/week3/lab2_ws/src/rotations_pkg' returned '0': PYTHONPATH=/home/luz/Escritorio/Robotica/week3/lab2_ws/build/rotations_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rotations_pkg build --build-base /home/luz/Escritorio/Robotica/week3/lab2_ws/build/rotations_pkg/build install --record /home/luz/Escritorio/Robotica/week3/lab2_ws/build/rotations_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+angulo = rotations_pkg.pub_angles:main
+matriz = rotations_pkg.sub_angles:main
+
