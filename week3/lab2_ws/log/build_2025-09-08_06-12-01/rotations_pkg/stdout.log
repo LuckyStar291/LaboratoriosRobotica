@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/rotations_pkg/rotations_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/rotations_pkg/rotations_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/rotations_pkg/rotations_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/rotations_pkg/rotations_pkg.egg-info/requires.txt
+writing top-level names to ../../build/rotations_pkg/rotations_pkg.egg-info/top_level.txt
+reading manifest file '../../build/rotations_pkg/rotations_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rotations_pkg/rotations_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rotations_pkg/pub_angles.py -> /home/luz/Escritorio/Robotica/week3/lab2_ws/build/rotations_pkg/build/lib/rotations_pkg
+running install
+running install_lib
+copying /home/luz/Escritorio/Robotica/week3/lab2_ws/build/rotations_pkg/build/lib/rotations_pkg/pub_angles.py -> /home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg
+byte-compiling /home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg/pub_angles.py to pub_angles.cpython-310.pyc
+running install_data
+copying package.xml -> /home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/share/rotations_pkg
+running install_egg_info
+removing '/home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/rotations_pkg/rotations_pkg.egg-info to /home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing angulo script to /home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg/lib/rotations_pkg
+writing list of installed files to '/home/luz/Escritorio/Robotica/week3/lab2_ws/build/rotations_pkg/install.log'
