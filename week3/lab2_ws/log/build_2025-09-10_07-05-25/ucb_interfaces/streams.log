@@ -1,0 +1,18 @@
+[0.007s] Invoking command in '/home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces -- -j12 -l12
+[0.025s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.025s] -- Found ament_cmake_core: 1.3.12 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.121s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.144s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.282s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.283s]   Packages installing interfaces must include
+[0.283s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.283s]   package.xml
+[0.283s] Call Stack (most recent call first):
+[0.283s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.283s] 
+[0.283s] [0m
+[0.283s] -- Configuring incomplete, errors occurred!
+[0.283s] See also "/home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces/CMakeFiles/CMakeOutput.log".
+[0.285s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.287s] Invoked command in '/home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/week3/lab2_ws/install/rotations_pkg:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces -- -j12 -l12

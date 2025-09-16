@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ucb_interfaces/srv/Rot.srv
+// generated code does not contain a copyright notice
+
+
+module ucb_interfaces {
+  module srv {
+    struct Rot_Request {
+      int64 angle;
+
+      int64 px;
+
+      int64 py;
+
+      int64 pz;
+    };
+    struct Rot_Response {
+      double fx;
+
+      double fy;
+
+      double fz;
+    };
+  };
+};
