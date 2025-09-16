@@ -1,0 +1,4 @@
+source;share/ucb_interfaces/local_setup.bash
+source;share/ucb_interfaces/local_setup.dsv
+source;share/ucb_interfaces/local_setup.sh
+source;share/ucb_interfaces/local_setup.zsh

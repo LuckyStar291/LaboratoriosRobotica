@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             "angulo = rotations_pkg.pub_angles:main",
-            "matriz = rotations_pkg.sub_angles:main"    
+            "matriz = rotations_pkg.sub_angles:main",
+            "servidor_rotacion = rotations_pkg.server_angles:main",  # server
+            "cliente_rotacion = rotations_pkg.client_angles:main"    # client    
         ],
     },
 )

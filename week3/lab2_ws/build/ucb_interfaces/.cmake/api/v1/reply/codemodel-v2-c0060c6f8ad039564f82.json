@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b3b453e20def107964e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ucb_interfaces__py",
+					"jsonFile" : "directory-ucb_interfaces__py-cd869d9c270e46b4ec4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces/ucb_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ucb_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ucb_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ucb_interfaces_egg-646f824b68bb147336a0.json",
+					"name" : "ament_cmake_python_build_ucb_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ucb_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ucb_interfaces-b8eb0c368095793981b9.json",
+					"name" : "ament_cmake_python_copy_ucb_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces-03eb6d483b4d79ca2774.json",
+					"name" : "ucb_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces__cpp-80ca05901fd91995189d.json",
+					"name" : "ucb_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ucb_interfaces__py::@52b398ea8a5e2119ce49",
+					"jsonFile" : "target-ucb_interfaces__py-1857a78cbd4956258099.json",
+					"name" : "ucb_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces__rosidl_generator_c-ebe74b8d96c0d1d5d162.json",
+					"name" : "ucb_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces__rosidl_generator_py-b1ed094b25f89bf62805.json",
+					"name" : "ucb_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces__rosidl_typesupport_c-e8245588bd2c97d21bbd.json",
+					"name" : "ucb_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces__rosidl_typesupport_c__pyext-dae1aaf7300060985a81.json",
+					"name" : "ucb_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces__rosidl_typesupport_cpp-80e3ff6a55f380c690c7.json",
+					"name" : "ucb_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces__rosidl_typesupport_fastrtps_c-74623d89a4791991786f.json",
+					"name" : "ucb_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces__rosidl_typesupport_fastrtps_c__pyext-8415c97b6e49d5f4a158.json",
+					"name" : "ucb_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces__rosidl_typesupport_fastrtps_cpp-361db5b47e155ec289bb.json",
+					"name" : "ucb_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces__rosidl_typesupport_introspection_c-b01adb3db89425768512.json",
+					"name" : "ucb_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces__rosidl_typesupport_introspection_c__pyext-50a3a79d594199293768.json",
+					"name" : "ucb_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces__rosidl_typesupport_introspection_cpp-59508c1c3dc767904cc9.json",
+					"name" : "ucb_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interfaces_uninstall-51c44449b2e5acffbb55.json",
+					"name" : "ucb_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c5486e40a116339ab477.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces",
+		"source" : "/home/luz/Escritorio/Robotica/week3/lab2_ws/src/ucb_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

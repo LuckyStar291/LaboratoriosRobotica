@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ucb_interfaces__py",
+		"source" : "/home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces/ucb_interfaces__py"
+	}
+}
