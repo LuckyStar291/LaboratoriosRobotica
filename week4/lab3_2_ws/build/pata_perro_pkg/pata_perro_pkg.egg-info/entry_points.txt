@@ -1,0 +1,4 @@
+[console_scripts]
+Client_perro = pata_perro_pkg.client_perro:main
+Server_perro = pata_perro_pkg.server_perro:main
+

@@ -1,0 +1,26 @@
+[0.371s] Invoking command in '/home/luz/Escritorio/Robotica/week4/lab3_2_ws/src/pata_perro_pkg': PYTHONPATH=/home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/pata_perro_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/week4/lab3_2_ws/install/pata_perro_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pata_perro_pkg build --build-base /home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/pata_perro_pkg/build install --record /home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/pata_perro_pkg/install.log --single-version-externally-managed install_data
+[0.514s] running egg_info
+[0.515s] writing ../../build/pata_perro_pkg/pata_perro_pkg.egg-info/PKG-INFO
+[0.515s] writing dependency_links to ../../build/pata_perro_pkg/pata_perro_pkg.egg-info/dependency_links.txt
+[0.515s] writing entry points to ../../build/pata_perro_pkg/pata_perro_pkg.egg-info/entry_points.txt
+[0.515s] writing requirements to ../../build/pata_perro_pkg/pata_perro_pkg.egg-info/requires.txt
+[0.515s] writing top-level names to ../../build/pata_perro_pkg/pata_perro_pkg.egg-info/top_level.txt
+[0.517s] reading manifest file '../../build/pata_perro_pkg/pata_perro_pkg.egg-info/SOURCES.txt'
+[0.518s] adding license file 'LICENSE'
+[0.518s] writing manifest file '../../build/pata_perro_pkg/pata_perro_pkg.egg-info/SOURCES.txt'
+[0.519s] running build
+[0.519s] running build_py
+[0.519s] copying pata_perro_pkg/server_perro.py -> /home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/pata_perro_pkg/build/lib/pata_perro_pkg
+[0.519s] running install
+[0.520s] running install_lib
+[0.520s] copying /home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/pata_perro_pkg/build/lib/pata_perro_pkg/server_perro.py -> /home/luz/Escritorio/Robotica/week4/lab3_2_ws/install/pata_perro_pkg/lib/python3.10/site-packages/pata_perro_pkg
+[0.521s] byte-compiling /home/luz/Escritorio/Robotica/week4/lab3_2_ws/install/pata_perro_pkg/lib/python3.10/site-packages/pata_perro_pkg/server_perro.py to server_perro.cpython-310.pyc
+[0.522s] running install_data
+[0.522s] running install_egg_info
+[0.524s] removing '/home/luz/Escritorio/Robotica/week4/lab3_2_ws/install/pata_perro_pkg/lib/python3.10/site-packages/pata_perro_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.524s] Copying ../../build/pata_perro_pkg/pata_perro_pkg.egg-info to /home/luz/Escritorio/Robotica/week4/lab3_2_ws/install/pata_perro_pkg/lib/python3.10/site-packages/pata_perro_pkg-0.0.0-py3.10.egg-info
+[0.525s] running install_scripts
+[0.538s] Installing Client_perro script to /home/luz/Escritorio/Robotica/week4/lab3_2_ws/install/pata_perro_pkg/lib/pata_perro_pkg
+[0.538s] Installing Server_perro script to /home/luz/Escritorio/Robotica/week4/lab3_2_ws/install/pata_perro_pkg/lib/pata_perro_pkg
+[0.539s] writing list of installed files to '/home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/pata_perro_pkg/install.log'
+[0.555s] Invoked command in '/home/luz/Escritorio/Robotica/week4/lab3_2_ws/src/pata_perro_pkg' returned '0': PYTHONPATH=/home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/pata_perro_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/week4/lab3_2_ws/install/pata_perro_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pata_perro_pkg build --build-base /home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/pata_perro_pkg/build install --record /home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/pata_perro_pkg/install.log --single-version-externally-managed install_data

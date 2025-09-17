@@ -25,14 +25,15 @@ class MinimalService(Node):
         
         pf = M @ p_i
         
-        print("Matriz de rotación Z:")
-        print(M)
+        #print("Matriz de rotación Z:")
+        #print(M)
         print("\nPunto inicial:")
         print(p_i)
         print("\nPunto final:")
         
         print(pf)
-        print(pf.shape)
+        #print(pf.shape)
+        
         response.fx = float(pf[0])
         response.fy = float(pf[1])
         response.fz = float(pf[2])

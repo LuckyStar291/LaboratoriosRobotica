@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from matrix_interfaces/srv/Rotxyz.srv
+// generated code does not contain a copyright notice
+
+
+module matrix_interfaces {
+  module srv {
+    struct Rotxyz_Request {
+      int64 px;
+
+      int64 py;
+
+      int64 pz;
+    };
+    struct Rotxyz_Response {
+      sequence<double> matrizz;
+    };
+  };
+};
