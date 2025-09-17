@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c7c5ca1b347954a0cba0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "matrix_interfaces__py",
+					"jsonFile" : "directory-matrix_interfaces__py-6a251689dcefe074b6f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/matrix_interfaces/matrix_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "matrix_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_matrix_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_matrix_interfaces_egg-7d5ea53fdf8ddb1bd017.json",
+					"name" : "ament_cmake_python_build_matrix_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_matrix_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_matrix_interfaces-f4b9bbcd25f3ee4ae124.json",
+					"name" : "ament_cmake_python_copy_matrix_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces-2f4b286012a21005d118.json",
+					"name" : "matrix_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces__cpp-f718afff1edb878fc8ab.json",
+					"name" : "matrix_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "matrix_interfaces__py::@860654f15da09939ae6e",
+					"jsonFile" : "target-matrix_interfaces__py-2895ea17a4c13451fe22.json",
+					"name" : "matrix_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces__rosidl_generator_c-d97980e9ba1e5995e5f6.json",
+					"name" : "matrix_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces__rosidl_generator_py-2fe49ff221ae6ab475e2.json",
+					"name" : "matrix_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces__rosidl_typesupport_c-9806fbec7bc7ba609ca6.json",
+					"name" : "matrix_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces__rosidl_typesupport_c__pyext-c0fa24f49f2adc88a117.json",
+					"name" : "matrix_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces__rosidl_typesupport_cpp-670e58272fe19eba9e13.json",
+					"name" : "matrix_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces__rosidl_typesupport_fastrtps_c-100aca82d23de3eb5d8f.json",
+					"name" : "matrix_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces__rosidl_typesupport_fastrtps_c__pyext-6b9f2b8b8416114d98f1.json",
+					"name" : "matrix_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces__rosidl_typesupport_fastrtps_cpp-e33616e762985a1576d5.json",
+					"name" : "matrix_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces__rosidl_typesupport_introspection_c-702bbd469ddaf9328aeb.json",
+					"name" : "matrix_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces__rosidl_typesupport_introspection_c__pyext-481bd19ecaed419e0a4f.json",
+					"name" : "matrix_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces__rosidl_typesupport_introspection_cpp-283a2e0bef6822bf887f.json",
+					"name" : "matrix_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix_interfaces_uninstall-1974aee1911a6983ed83.json",
+					"name" : "matrix_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5c30cb66d01443be8870.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/matrix_interfaces",
+		"source" : "/home/luz/Escritorio/Robotica/week4/lab3_2_ws/src/matrix_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

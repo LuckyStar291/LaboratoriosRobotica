@@ -1,0 +1,3 @@
+source;share/pata_perro_pkg/hook/pythonpath.ps1
+source;share/pata_perro_pkg/hook/pythonpath.dsv
+source;share/pata_perro_pkg/hook/pythonpath.sh

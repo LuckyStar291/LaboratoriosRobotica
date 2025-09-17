@@ -1,0 +1,151 @@
+[0.008s] Invoking command in '/home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces -- -j12 -l12
+[0.052s] [  3%] Built target ucb_interfaces__cpp
+[0.052s] [ 12%] Built target ucb_interfaces__rosidl_generator_c
+[0.073s] [ 12%] Built target ament_cmake_python_copy_ucb_interfaces
+[0.088s] [ 22%] Built target ucb_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.089s] [ 32%] Built target ucb_interfaces__rosidl_typesupport_cpp
+[0.095s] [ 41%] Built target ucb_interfaces__rosidl_typesupport_introspection_cpp
+[0.102s] [ 51%] Built target ucb_interfaces__rosidl_typesupport_fastrtps_c
+[0.103s] [ 61%] Built target ucb_interfaces__rosidl_typesupport_c
+[0.107s] [ 70%] Built target ucb_interfaces__rosidl_typesupport_introspection_c
+[0.124s] [ 70%] Built target ucb_interfaces
+[0.140s] [ 74%] Built target ucb_interfaces__py
+[0.161s] [ 80%] Built target ucb_interfaces__rosidl_generator_py
+[0.175s] [ 87%] Built target ucb_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.175s] [ 93%] Built target ucb_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.178s] [100%] Built target ucb_interfaces__rosidl_typesupport_c__pyext
+[0.252s] running egg_info
+[0.252s] writing ucb_interfaces.egg-info/PKG-INFO
+[0.252s] writing dependency_links to ucb_interfaces.egg-info/dependency_links.txt
+[0.252s] writing top-level names to ucb_interfaces.egg-info/top_level.txt
+[0.254s] reading manifest file 'ucb_interfaces.egg-info/SOURCES.txt'
+[0.254s] writing manifest file 'ucb_interfaces.egg-info/SOURCES.txt'
+[0.273s] [100%] Built target ament_cmake_python_build_ucb_interfaces_egg
+[0.285s] Invoked command in '/home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces -- -j12 -l12
+[0.296s] Invoking command in '/home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces
+[0.308s] -- Install configuration: ""
+[0.308s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ament_index/resource_index/rosidl_interfaces/ucb_interfaces
+[0.308s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces
+[0.308s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv
+[0.308s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail
+[0.309s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__functions.h
+[0.309s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__functions.c
+[0.309s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__type_support.h
+[0.309s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__struct.h
+[0.309s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/rot.h
+[0.309s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/msg
+[0.309s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.309s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/environment/library_path.sh
+[0.309s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/environment/library_path.dsv
+[0.309s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/lib/libucb_interfaces__rosidl_generator_c.so
+[0.309s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces
+[0.310s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv
+[0.310s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail
+[0.311s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__rosidl_typesupport_fastrtps_c.h
+[0.311s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/msg
+[0.311s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.311s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/lib/libucb_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.311s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces
+[0.311s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv
+[0.312s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail
+[0.312s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__type_support.c
+[0.312s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__rosidl_typesupport_introspection_c.h
+[0.312s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/msg
+[0.313s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.313s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/lib/libucb_interfaces__rosidl_typesupport_introspection_c.so
+[0.313s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/lib/libucb_interfaces__rosidl_typesupport_c.so
+[0.313s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces
+[0.314s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv
+[0.314s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail
+[0.314s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__struct.hpp
+[0.314s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__traits.hpp
+[0.314s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__builder.hpp
+[0.314s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__type_support.hpp
+[0.314s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/rot.hpp
+[0.315s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/msg
+[0.315s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.315s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces
+[0.315s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv
+[0.316s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail
+[0.316s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/dds_fastrtps
+[0.316s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__rosidl_typesupport_fastrtps_cpp.hpp
+[0.316s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/msg
+[0.316s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.316s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/lib/libucb_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.316s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces
+[0.317s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv
+[0.317s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail
+[0.317s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__rosidl_typesupport_introspection_cpp.hpp
+[0.317s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/include/ucb_interfaces/ucb_interfaces/srv/detail/rot__type_support.cpp
+[0.317s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/lib/libucb_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.317s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/lib/libucb_interfaces__rosidl_typesupport_cpp.so
+[0.317s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/environment/pythonpath.sh
+[0.318s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/environment/pythonpath.dsv
+[0.318s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces-0.0.0-py3.10.egg-info
+[0.318s] -- Installing: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.318s] -- Installing: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.318s] -- Installing: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.318s] -- Installing: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.318s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces
+[0.319s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/ucb_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.319s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/srv
+[0.319s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/srv/_rot_s.c
+[0.319s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/srv/_rot.py
+[0.319s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/srv/__init__.py
+[0.319s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/_ucb_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.320s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/ucb_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.320s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/_ucb_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.320s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/_ucb_interfaces_s.ep.rosidl_typesupport_c.c
+[0.320s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/libucb_interfaces__rosidl_generator_py.so
+[0.320s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/__init__.py
+[0.320s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/ucb_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.382s] Listing '/home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces'...
+[0.382s] Listing '/home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/srv'...
+[0.386s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/ucb_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.386s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/ucb_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.386s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/local/lib/python3.10/dist-packages/ucb_interfaces/ucb_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.387s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/lib/libucb_interfaces__rosidl_generator_py.so
+[0.387s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/srv/Rot.idl
+[0.387s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/srv/Rot.srv
+[0.387s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/srv/Rot_Request.msg
+[0.387s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/srv/Rot_Response.msg
+[0.387s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ament_index/resource_index/package_run_dependencies/ucb_interfaces
+[0.387s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ament_index/resource_index/parent_prefix_path/ucb_interfaces
+[0.387s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/environment/ament_prefix_path.sh
+[0.388s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/environment/ament_prefix_path.dsv
+[0.388s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/environment/path.sh
+[0.388s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/environment/path.dsv
+[0.388s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/local_setup.bash
+[0.388s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/local_setup.sh
+[0.388s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/local_setup.zsh
+[0.388s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/local_setup.dsv
+[0.388s] -- Installing: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/package.dsv
+[0.388s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ament_index/resource_index/packages/ucb_interfaces
+[0.388s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/export_ucb_interfaces__rosidl_generator_cExport.cmake
+[0.389s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/export_ucb_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.389s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/export_ucb_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.389s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/export_ucb_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.389s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.390s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.390s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfaces__rosidl_typesupport_cExport.cmake
+[0.390s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.390s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/export_ucb_interfaces__rosidl_generator_cppExport.cmake
+[0.390s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/export_ucb_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.390s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/export_ucb_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.391s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.391s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.391s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfaces__rosidl_typesupport_cppExport.cmake
+[0.391s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.391s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/export_ucb_interfaces__rosidl_generator_pyExport.cmake
+[0.391s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/export_ucb_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.391s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.392s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.392s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.392s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.392s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.392s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.392s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.392s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfacesConfig.cmake
+[0.393s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/cmake/ucb_interfacesConfig-version.cmake
+[0.393s] -- Up-to-date: /home/luz/Escritorio/Robotica/week3/lab2_ws/install/ucb_interfaces/share/ucb_interfaces/package.xml
+[0.394s] Invoked command in '/home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week3/lab2_ws/build/ucb_interfaces
