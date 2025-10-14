@@ -1,0 +1,4 @@
+[console_scripts]
+client = rotations_pkg.client_angles:main
+server = rotations_pkg.server_angles:main
+

@@ -1,0 +1,8 @@
+int32 angle
+int32 px
+int32 py
+int32 pz
+---
+float32 fx
+float32 fy
+float32 fz

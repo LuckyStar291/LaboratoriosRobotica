@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "test_interfaces__py",
+		"source" : "/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/test_interfaces/test_interfaces__py"
+	}
+}

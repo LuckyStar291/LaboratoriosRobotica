@@ -50,9 +50,6 @@ class NumberPublisher(Node):           # Nodo publicador
         self.i += 1
 
 
-
-
-
 def main(args=None):                   # Punto de entrada del programa
     rclpy.init(args=args)              # Inicializa ROS 2 (obligatorio)
     node = NumberPublisher()           #MyPublisher()               # Crear instancia del nodo publicador

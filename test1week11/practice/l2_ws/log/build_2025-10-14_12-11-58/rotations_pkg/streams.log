@@ -1,0 +1,42 @@
+[0.450s] Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/src/rotations_pkg': PYTHONPATH=/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rotations_pkg build --build-base /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/build install --record /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/install.log --single-version-externally-managed install_data
+[0.607s] running egg_info
+[0.608s] creating ../../build/rotations_pkg/rotations_pkg.egg-info
+[0.608s] writing ../../build/rotations_pkg/rotations_pkg.egg-info/PKG-INFO
+[0.608s] writing dependency_links to ../../build/rotations_pkg/rotations_pkg.egg-info/dependency_links.txt
+[0.608s] writing entry points to ../../build/rotations_pkg/rotations_pkg.egg-info/entry_points.txt
+[0.608s] writing requirements to ../../build/rotations_pkg/rotations_pkg.egg-info/requires.txt
+[0.608s] writing top-level names to ../../build/rotations_pkg/rotations_pkg.egg-info/top_level.txt
+[0.608s] writing manifest file '../../build/rotations_pkg/rotations_pkg.egg-info/SOURCES.txt'
+[0.609s] reading manifest file '../../build/rotations_pkg/rotations_pkg.egg-info/SOURCES.txt'
+[0.609s] adding license file 'LICENSE'
+[0.609s] writing manifest file '../../build/rotations_pkg/rotations_pkg.egg-info/SOURCES.txt'
+[0.609s] running build
+[0.610s] running build_py
+[0.610s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/build
+[0.610s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/build/lib
+[0.610s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/build/lib/rotations_pkg
+[0.610s] copying rotations_pkg/client_angles.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/build/lib/rotations_pkg
+[0.610s] copying rotations_pkg/__init__.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/build/lib/rotations_pkg
+[0.610s] copying rotations_pkg/server_angles.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/build/lib/rotations_pkg
+[0.610s] running install
+[0.610s] running install_lib
+[0.611s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg
+[0.611s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/build/lib/rotations_pkg/client_angles.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg
+[0.611s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/build/lib/rotations_pkg/__init__.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg
+[0.611s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/build/lib/rotations_pkg/server_angles.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg
+[0.611s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg/client_angles.py to client_angles.cpython-310.pyc
+[0.611s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg/__init__.py to __init__.cpython-310.pyc
+[0.611s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg/server_angles.py to server_angles.cpython-310.pyc
+[0.612s] running install_data
+[0.612s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/share/ament_index
+[0.612s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/share/ament_index/resource_index
+[0.612s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/share/ament_index/resource_index/packages
+[0.612s] copying resource/rotations_pkg -> /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/share/ament_index/resource_index/packages
+[0.612s] copying package.xml -> /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/share/rotations_pkg
+[0.612s] running install_egg_info
+[0.613s] Copying ../../build/rotations_pkg/rotations_pkg.egg-info to /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/lib/python3.10/site-packages/rotations_pkg-0.0.0-py3.10.egg-info
+[0.613s] running install_scripts
+[0.627s] Installing client script to /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/lib/rotations_pkg
+[0.627s] Installing server script to /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/lib/rotations_pkg
+[0.628s] writing list of installed files to '/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/install.log'
+[0.645s] Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/src/rotations_pkg' returned '0': PYTHONPATH=/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rotations_pkg build --build-base /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/build install --record /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/rotations_pkg/install.log --single-version-externally-managed install_data
