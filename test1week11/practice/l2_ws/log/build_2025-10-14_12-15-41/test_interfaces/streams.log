@@ -1,0 +1,151 @@
+[0.172s] Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/test_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg:/home/luz/Escritorio/Robotica/test1week11/practice/l1_ws/install/pubsubs:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/test_interfaces -- -j12 -l12
+[0.220s] [  3%] Built target test_interfaces__cpp
+[0.224s] [ 12%] Built target test_interfaces__rosidl_generator_c
+[0.228s] [ 12%] Built target ament_cmake_python_copy_test_interfaces
+[0.235s] [ 22%] Built target test_interfaces__rosidl_typesupport_introspection_cpp
+[0.240s] [ 32%] Built target test_interfaces__rosidl_typesupport_c
+[0.240s] [ 41%] Built target test_interfaces__rosidl_typesupport_cpp
+[0.240s] [ 51%] Built target test_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.243s] [ 61%] Built target test_interfaces__rosidl_typesupport_fastrtps_c
+[0.246s] [ 70%] Built target test_interfaces__rosidl_typesupport_introspection_c
+[0.264s] [ 70%] Built target test_interfaces
+[0.286s] [ 74%] Built target test_interfaces__py
+[0.303s] [ 80%] Built target test_interfaces__rosidl_generator_py
+[0.320s] [ 87%] Built target test_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.322s] [ 93%] Built target test_interfaces__rosidl_typesupport_c__pyext
+[0.325s] [100%] Built target test_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.386s] running egg_info
+[0.387s] writing test_interfaces.egg-info/PKG-INFO
+[0.387s] writing dependency_links to test_interfaces.egg-info/dependency_links.txt
+[0.387s] writing top-level names to test_interfaces.egg-info/top_level.txt
+[0.389s] reading manifest file 'test_interfaces.egg-info/SOURCES.txt'
+[0.389s] writing manifest file 'test_interfaces.egg-info/SOURCES.txt'
+[0.413s] [100%] Built target ament_cmake_python_build_test_interfaces_egg
+[0.423s] Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/test_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg:/home/luz/Escritorio/Robotica/test1week11/practice/l1_ws/install/pubsubs:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/test_interfaces -- -j12 -l12
+[0.432s] Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/test_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg:/home/luz/Escritorio/Robotica/test1week11/practice/l1_ws/install/pubsubs:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/test_interfaces
+[0.442s] -- Install configuration: ""
+[0.442s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/ament_index/resource_index/rosidl_interfaces/test_interfaces
+[0.442s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces
+[0.442s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv
+[0.442s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail
+[0.442s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__functions.h
+[0.442s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__functions.c
+[0.442s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__type_support.h
+[0.442s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__struct.h
+[0.442s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/rot.h
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/msg
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/environment/library_path.sh
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/environment/library_path.dsv
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/lib/libtest_interfaces__rosidl_generator_c.so
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__rosidl_typesupport_fastrtps_c.h
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/msg
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.443s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__type_support.c
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__rosidl_typesupport_introspection_c.h
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/msg
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_introspection_c.so
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_c.so
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__struct.hpp
+[0.444s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__traits.hpp
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__builder.hpp
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__type_support.hpp
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/rot.hpp
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/msg
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/dds_fastrtps
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__rosidl_typesupport_fastrtps_cpp.hpp
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/msg
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail
+[0.445s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__rosidl_typesupport_introspection_cpp.hpp
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/include/test_interfaces/test_interfaces/srv/detail/rot__type_support.cpp
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_cpp.so
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/environment/pythonpath.sh
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/environment/pythonpath.dsv
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces-0.0.0-py3.10.egg-info
+[0.446s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.446s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.446s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.446s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/_test_interfaces_s.ep.rosidl_typesupport_c.c
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/_test_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/srv
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/srv/_rot_s.c
+[0.446s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/srv/_rot.py
+[0.447s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/srv/__init__.py
+[0.447s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/_test_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.447s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/__init__.py
+[0.447s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.447s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/libtest_interfaces__rosidl_generator_py.so
+[0.447s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.471s] Listing '/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces'...
+[0.471s] Listing '/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/srv'...
+[0.474s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.474s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.475s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/local/lib/python3.10/dist-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.475s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/lib/libtest_interfaces__rosidl_generator_py.so
+[0.475s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/srv/Rot.idl
+[0.475s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/srv/Rot.srv
+[0.475s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/srv/Rot_Request.msg
+[0.475s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/srv/Rot_Response.msg
+[0.475s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/ament_index/resource_index/package_run_dependencies/test_interfaces
+[0.475s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/ament_index/resource_index/parent_prefix_path/test_interfaces
+[0.476s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/environment/ament_prefix_path.sh
+[0.476s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/environment/ament_prefix_path.dsv
+[0.476s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/environment/path.sh
+[0.476s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/environment/path.dsv
+[0.476s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/local_setup.bash
+[0.476s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/local_setup.sh
+[0.476s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/local_setup.zsh
+[0.476s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/local_setup.dsv
+[0.476s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/package.dsv
+[0.476s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/ament_index/resource_index/packages/test_interfaces
+[0.476s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/export_test_interfaces__rosidl_generator_cExport.cmake
+[0.476s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/export_test_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.476s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/export_test_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/export_test_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cExport.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/export_test_interfaces__rosidl_generator_cppExport.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/export_test_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/export_test_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cppExport.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/export_test_interfaces__rosidl_generator_pyExport.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/export_test_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.477s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/test_interfacesConfig.cmake
+[0.478s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/cmake/test_interfacesConfig-version.cmake
+[0.478s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/test_interfaces/share/test_interfaces/package.xml
+[0.479s] Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/test_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/install/rotations_pkg:/home/luz/Escritorio/Robotica/test1week11/practice/l1_ws/install/pubsubs:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l2_ws/build/test_interfaces

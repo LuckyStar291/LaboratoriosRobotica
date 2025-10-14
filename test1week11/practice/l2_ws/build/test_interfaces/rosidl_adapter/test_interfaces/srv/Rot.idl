@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from test_interfaces/srv/Rot.srv
+// generated code does not contain a copyright notice
+
+
+module test_interfaces {
+  module srv {
+    struct Rot_Request {
+      int32 angle;
+
+      int32 px;
+
+      int32 py;
+
+      int32 pz;
+    };
+    struct Rot_Response {
+      float fx;
+
+      float fy;
+
+      float fz;
+    };
+  };
+};

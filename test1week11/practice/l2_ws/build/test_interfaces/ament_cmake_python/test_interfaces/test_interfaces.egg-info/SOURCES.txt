@@ -1,0 +1,8 @@
+setup.py
+test_interfaces/__init__.py
+test_interfaces.egg-info/PKG-INFO
+test_interfaces.egg-info/SOURCES.txt
+test_interfaces.egg-info/dependency_links.txt
+test_interfaces.egg-info/top_level.txt
+test_interfaces/srv/__init__.py
+test_interfaces/srv/_rot.py
