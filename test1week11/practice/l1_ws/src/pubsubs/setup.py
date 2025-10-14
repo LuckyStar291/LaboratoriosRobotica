@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            # alias = paquete_python.archivo:funcion
             "mensajero = pubsubs.P:main",
             "captador = pubsubs.S:main"
         ],
