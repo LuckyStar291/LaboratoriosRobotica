@@ -1,0 +1,24 @@
+[0.411s] Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/src/pubsubs': PYTHONPATH=/home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/build/pubsubs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/install/pubsubs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsubs build --build-base /home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/build/pubsubs/build install --record /home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/build/pubsubs/install.log --single-version-externally-managed install_data
+[0.564s] running egg_info
+[0.565s] writing ../../build/pubsubs/pubsubs.egg-info/PKG-INFO
+[0.565s] writing dependency_links to ../../build/pubsubs/pubsubs.egg-info/dependency_links.txt
+[0.565s] writing entry points to ../../build/pubsubs/pubsubs.egg-info/entry_points.txt
+[0.565s] writing requirements to ../../build/pubsubs/pubsubs.egg-info/requires.txt
+[0.565s] writing top-level names to ../../build/pubsubs/pubsubs.egg-info/top_level.txt
+[0.566s] reading manifest file '../../build/pubsubs/pubsubs.egg-info/SOURCES.txt'
+[0.566s] adding license file 'LICENSE'
+[0.567s] writing manifest file '../../build/pubsubs/pubsubs.egg-info/SOURCES.txt'
+[0.567s] running build
+[0.567s] running build_py
+[0.567s] running install
+[0.567s] running install_lib
+[0.568s] running install_data
+[0.568s] copying launch/run_nodes.launch.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/install/pubsubs/share/pubsubs/launch
+[0.568s] running install_egg_info
+[0.569s] removing '/home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/install/pubsubs/lib/python3.10/site-packages/pubsubs-0.0.0-py3.10.egg-info' (and everything under it)
+[0.569s] Copying ../../build/pubsubs/pubsubs.egg-info to /home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/install/pubsubs/lib/python3.10/site-packages/pubsubs-0.0.0-py3.10.egg-info
+[0.570s] running install_scripts
+[0.583s] Installing captador script to /home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/install/pubsubs/lib/pubsubs
+[0.583s] Installing mensajero script to /home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/install/pubsubs/lib/pubsubs
+[0.583s] writing list of installed files to '/home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/build/pubsubs/install.log'
+[0.600s] Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/src/pubsubs' returned '0': PYTHONPATH=/home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/build/pubsubs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/install/pubsubs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsubs build --build-base /home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/build/pubsubs/build install --record /home/luz/Escritorio/Robotica/test1week11/practice/l3_ws/build/pubsubs/install.log --single-version-externally-managed install_data
