@@ -1,0 +1,4 @@
+[console_scripts]
+captador = pubsubs.S:main
+mensajero = pubsubs.P:main
+

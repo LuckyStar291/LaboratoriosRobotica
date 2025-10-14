@@ -1,0 +1,128 @@
+[0.008s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage': /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/Stage -DOpenGL_GL_PREFERENCE=LEGACY -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.243s] -- Detecting CXX compiler ABI info - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.249s] -- Detecting CXX compile features
+[0.250s] -- Detecting CXX compile features - done
+[0.250s] -- Stage version 4.3.0
+[0.250s] -- Operating system is Linux
+[0.250s] -- Installing Libraries to /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib
+[0.250s] -- Installing Plugins to /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3
+[0.250s] -- Build type RELEASE
+[0.250s] -- Checking for libtool
+[0.255s] -- Checking for required libraries...
+[0.265s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[0.271s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.281s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.284s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.356s] -- Found X11: /usr/include   
+[0.356s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.415s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.416s] -- Looking for gethostbyname
+[0.466s] -- Looking for gethostbyname - found
+[0.466s] -- Looking for connect
+[0.526s] -- Looking for connect - found
+[0.526s] -- Looking for remove
+[0.580s] -- Looking for remove - found
+[0.580s] -- Looking for shmat
+[0.645s] -- Looking for shmat - found
+[0.645s] -- Looking for IceConnectionNumber in ICE
+[0.702s] -- Looking for IceConnectionNumber in ICE - found
+[0.704s] -- Found FLTK: fltk_images;fltk_forms;fltk_gl;/usr/lib/x86_64-linux-gnu/libGL.so;fltk  
+[0.706s] -- Checking for optional libraries...
+[0.706s] -- Installation path CMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage
+[0.706s] -- Configuring libstage
+[0.714s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.714s] -- Checking for one of the modules 'playercore>=2.1.0'
+[0.716s] --   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.
+[0.728s] -- Configuring done
+[0.755s] -- Generating done
+[0.756s] [33mCMake Warning:
+[0.756s]   Manually-specified variables were not used by the project:
+[0.756s] 
+[0.756s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.756s]     CATKIN_SYMLINK_INSTALL
+[0.756s] 
+[0.756s] [0m
+[0.760s] -- Build files have been written to: /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage
+[0.765s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage' returned '0': /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/Stage -DOpenGL_GL_PREFERENCE=LEGACY -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage
+[0.767s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage': /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage -- -j12 -l12
+[0.811s] [  1%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o[0m
+[0.811s] [  3%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o[0m
+[0.811s] [  5%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o[0m
+[0.811s] [  6%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o[0m
+[0.813s] [ 10%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o[0m
+[0.814s] [ 10%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o[0m
+[0.814s] [ 11%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o[0m
+[0.814s] [ 13%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o[0m
+[0.814s] [ 15%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o[0m
+[0.814s] [ 16%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o[0m
+[0.814s] [ 18%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o[0m
+[0.817s] [ 20%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o[0m
+[1.780s] [ 22%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o[0m
+[1.813s] [ 23%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o[0m
+[1.818s] [ 25%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o[0m
+[1.875s] [ 27%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o[0m
+[1.889s] [ 28%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o[0m
+[1.961s] [ 30%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o[0m
+[2.052s] [ 32%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o[0m
+[2.084s] [ 33%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o[0m
+[2.185s] [ 35%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o[0m
+[2.198s] [ 37%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o[0m
+[2.417s] [ 38%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o[0m
+[2.813s] [ 40%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o[0m
+[2.994s] [ 42%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o[0m
+[3.078s] [ 44%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o[0m
+[3.090s] [ 45%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o[0m
+[3.092s] [ 47%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o[0m
+[3.134s] [ 49%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o[0m
+[3.160s] [ 50%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o[0m
+[3.185s] [ 52%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o[0m
+[3.248s] [ 54%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o[0m
+[3.450s] [ 55%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o[0m
+[5.110s] [ 57%] [32m[1mLinking CXX shared library libstage.so[0m
+[5.224s] [ 57%] Built target stage
+[5.248s] [ 59%] [32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o[0m
+[5.249s] [ 61%] [32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o[0m
+[5.249s] [ 62%] [32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o[0m
+[5.250s] [ 64%] [32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o[0m
+[5.250s] [ 66%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o[0m
+[5.250s] [ 67%] [32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o[0m
+[5.250s] [ 71%] [32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o[0m
+[5.250s] [ 71%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o[0m
+[5.250s] [ 74%] [32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o[0m
+[5.250s] [ 74%] [32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o[0m
+[5.250s] [ 76%] [32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o[0m
+[5.256s] [ 77%] [32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o[0m
+[6.152s] [ 79%] [32m[1mLinking CXX shared module sink.so[0m
+[6.174s] [ 81%] [32m[1mLinking CXX shared module rasterize.so[0m
+[6.193s] [ 86%] [32m[1mLinking CXX executable stage[0m
+[6.193s] [ 86%] [32m[1mLinking CXX shared module wander.so[0m
+[6.194s] [ 86%] [32m[1mLinking CXX shared module dynamic.so[0m
+[6.201s] [ 88%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[6.263s] [ 88%] Built target sink
+[6.273s] [ 89%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o[0m
+[6.274s] [ 89%] Built target rasterize
+[6.289s] [ 91%] [32m[1mLinking CXX shared module source.so[0m
+[6.297s] [ 91%] Built target dynamic
+[6.300s] [ 91%] Built target wander
+[6.306s] [ 91%] Built target pioneer_flocking
+[6.314s] [ 91%] Built target stagebinary
+[6.361s] [ 93%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[6.367s] [ 93%] Built target source
+[6.367s] [ 94%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[6.382s] [ 96%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[6.428s] [ 96%] Built target lasernoise
+[6.434s] [ 96%] Built target expand_pioneer
+[6.468s] [ 98%] [32m[1mLinking CXX shared module fasr.so[0m
+[6.475s] [ 98%] Built target expand_swarm
+[6.538s] [ 98%] Built target fasr
+[6.740s] [100%] [32m[1mLinking CXX shared module fasr2.so[0m
+[6.812s] [100%] Built target fasr2

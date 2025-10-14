@@ -252,4 +252,6 @@ CMakeFiles/matrix_interfaces__rosidl_generator_py.dir/rosidl_generator_py/matrix
  /home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/matrix_interfaces/rosidl_generator_c/matrix_interfaces/srv/detail/rotxyz__struct.h
  /home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/matrix_interfaces/rosidl_generator_c/matrix_interfaces/srv/detail/rotxyz__functions.h
  /home/luz/Escritorio/Robotica/week4/lab3_2_ws/build/matrix_interfaces/rosidl_generator_c/matrix_interfaces/msg/rosidl_generator_c__visibility_control.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h
 

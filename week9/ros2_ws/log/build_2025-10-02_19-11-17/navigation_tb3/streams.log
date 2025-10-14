@@ -1,0 +1,106 @@
+[0.012s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/navigation_tb3 -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.138s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.189s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.189s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.261s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.381s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.457s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.493s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.497s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.503s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.512s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.555s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.557s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.635s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.656s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.690s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.696s] -- Looking for pthread.h
+[0.769s] -- Looking for pthread.h - found
+[0.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.859s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.860s] -- Found Threads: TRUE  
+[0.904s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.927s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[1.037s] -- Configuring done
+[1.043s] -- Generating done
+[1.046s] -- Build files have been written to: /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3
+[1.053s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/navigation_tb3 -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3
+[1.054s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3 -- -j12 -l12
+[1.115s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_occupancy_grid.dir/src/pub_occupancy_grid.cpp.o[0m
+[1.127s] [ 50%] Built target ament_cmake_python_copy_navigation_tb3
+[1.292s] running egg_info
+[1.292s] creating navigation_tb3.egg-info
+[1.292s] writing navigation_tb3.egg-info/PKG-INFO
+[1.292s] writing dependency_links to navigation_tb3.egg-info/dependency_links.txt
+[1.292s] writing top-level names to navigation_tb3.egg-info/top_level.txt
+[1.293s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[1.294s] reading manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[1.294s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[1.317s] [ 50%] Built target ament_cmake_python_build_navigation_tb3_egg
+[3.914s] [100%] [32m[1mLinking CXX executable pub_occupancy_grid[0m
+[4.056s] [100%] Built target pub_occupancy_grid
+[4.068s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3 -- -j12 -l12
+[4.070s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3
+[4.081s] -- Install configuration: ""
+[4.081s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid
+[4.083s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid" to ""
+[4.083s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch
+[4.083s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/navigation.launch.py
+[4.083s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/mapping.launch.py
+[4.083s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/move_robot.py
+[4.083s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config
+[4.083s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/turtlebot3_lds_2d.lua
+[4.083s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/map2.yaml
+[4.084s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/mapping.rviz
+[4.084s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/pioneer.lua
+[4.084s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/cuarto.pgm
+[4.084s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/mapCasa3.pgm
+[4.084s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_map.pgm
+[4.084s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/rosbostito.lua
+[4.084s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/mappingV2.rviz
+[4.084s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/map2.pgm
+[4.085s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/cuarto.yaml
+[4.085s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_nav2_params.yaml
+[4.085s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/navigation.rviz
+[4.085s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/visualize.rviz
+[4.085s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_map.yaml
+[4.085s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/mapCasa3.yaml
+[4.085s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.sh
+[4.085s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.dsv
+[4.085s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info
+[4.085s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/PKG-INFO
+[4.086s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/top_level.txt
+[4.086s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.086s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.086s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3
+[4.086s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3/__init__.py
+[4.114s] Listing '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3'...
+[4.114s] Compiling '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3/__init__.py'...
+[4.117s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/lib/navigation_tb3/single_goal_nav.py
+[4.117s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/lib/navigation_tb3/multi_waypoints.py
+[4.117s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/package_run_dependencies/navigation_tb3
+[4.117s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/parent_prefix_path/navigation_tb3
+[4.117s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.sh
+[4.117s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.dsv
+[4.117s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/path.sh
+[4.117s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/path.dsv
+[4.118s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.bash
+[4.118s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.sh
+[4.118s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.zsh
+[4.118s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.dsv
+[4.118s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.dsv
+[4.118s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/packages/navigation_tb3
+[4.118s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config.cmake
+[4.118s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config-version.cmake
+[4.118s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.xml
+[4.120s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3
