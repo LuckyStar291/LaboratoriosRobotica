@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000457] (-) JobUnselected: {'identifier': 'stage'}
+[0.000573] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict()}
+[0.000596] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[0.006741] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[0.007293] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/luz/Escritorio/Robotica/week9/ros2_ws/src/stage_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2'], 'cwd': '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'luz'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luz'), ('OLDPWD', '/home/luz/Escritorio/Robotica/week9/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2225'), ('SYSTEMD_EXEC_PID', '2589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6971'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luz'), ('JOURNAL_STREAM', '8:3827'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/home/luz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luz-LOQ-15IRH8:@/tmp/.ICE-unix/2382,unix/luz-LOQ-15IRH8:/tmp/.ICE-unix/2382'), ('INVOCATION_ID', 'ff2805e40d374fba871acb09fe6af455'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1PGFD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b5f09248-b585-438a-99a6-4012f30b1346'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/luz/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage')]), 'shell': False}
+[0.018346] (stage_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099660] (-) TimerEvent: {}
+[0.106836] (stage_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.111334] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.134078] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.135613] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.139417] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.145623] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.153671] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.175855] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.176715] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199736] (-) TimerEvent: {}
+[0.262738] (stage_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.294478] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.299799] (-) TimerEvent: {}
+[0.306167] (stage_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.324476] (stage_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.338436] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.386209] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.395408] (stage_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.396307] (stage_ros2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.396511] (stage_ros2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.398075] (stage_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.399913] (-) TimerEvent: {}
+[0.407331] (stage_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.474638] (stage_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.474968] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/luz/Escritorio/Robotica/week9/ros2_ws/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/luz/Escritorio/Robotica/week9/ros2_ws/src/stage_ros2/include>\n'}
+[0.475089] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.475324] (stage_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.476185] (stage_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.476525] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.478832] (stage_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.479013] (stage_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.479190] (stage_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.479928] (stage_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.491655] (stage_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.495773] (stage_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2\n'}
+[0.500047] (-) TimerEvent: {}
+[0.502106] (stage_ros2) CommandEnded: {'returncode': 0}
+[0.502529] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[0.502555] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2', '--', '-j12', '-l12'], 'cwd': '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'luz'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luz'), ('OLDPWD', '/home/luz/Escritorio/Robotica/week9/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2225'), ('SYSTEMD_EXEC_PID', '2589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6971'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luz'), ('JOURNAL_STREAM', '8:3827'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/home/luz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luz-LOQ-15IRH8:@/tmp/.ICE-unix/2382,unix/luz-LOQ-15IRH8:/tmp/.ICE-unix/2382'), ('INVOCATION_ID', 'ff2805e40d374fba871acb09fe6af455'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1PGFD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b5f09248-b585-438a-99a6-4012f30b1346'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/luz/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage')]), 'shell': False}
+[0.553527] (stage_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o\x1b[0m\n'}
+[0.553734] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o\x1b[0m\n'}
+[0.553841] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o\x1b[0m\n'}
+[0.555175] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o\x1b[0m\n'}
+[0.600148] (-) TimerEvent: {}
+[0.700419] (-) TimerEvent: {}
+[0.800704] (-) TimerEvent: {}
+[0.901016] (-) TimerEvent: {}
+[1.001419] (-) TimerEvent: {}
+[1.101728] (-) TimerEvent: {}
+[1.202039] (-) TimerEvent: {}
+[1.302427] (-) TimerEvent: {}
+[1.402727] (-) TimerEvent: {}
+[1.503063] (-) TimerEvent: {}
+[1.603389] (-) TimerEvent: {}
+[1.703711] (-) TimerEvent: {}
+[1.804092] (-) TimerEvent: {}
+[1.904530] (-) TimerEvent: {}
+[2.004878] (-) TimerEvent: {}
+[2.105207] (-) TimerEvent: {}
+[2.205538] (-) TimerEvent: {}
+[2.305855] (-) TimerEvent: {}
+[2.406195] (-) TimerEvent: {}
+[2.506624] (-) TimerEvent: {}
+[2.606944] (-) TimerEvent: {}
+[2.707274] (-) TimerEvent: {}
+[2.807695] (-) TimerEvent: {}
+[2.908019] (-) TimerEvent: {}
+[3.008367] (-) TimerEvent: {}
+[3.108697] (-) TimerEvent: {}
+[3.209079] (-) TimerEvent: {}
+[3.309528] (-) TimerEvent: {}
+[3.409979] (-) TimerEvent: {}
+[3.510440] (-) TimerEvent: {}
+[3.610819] (-) TimerEvent: {}
+[3.711121] (-) TimerEvent: {}
+[3.811448] (-) TimerEvent: {}
+[3.911740] (-) TimerEvent: {}
+[4.012065] (-) TimerEvent: {}
+[4.112375] (-) TimerEvent: {}
+[4.212670] (-) TimerEvent: {}
+[4.312979] (-) TimerEvent: {}
+[4.413281] (-) TimerEvent: {}
+[4.513545] (-) TimerEvent: {}
+[4.613770] (-) TimerEvent: {}
+[4.714019] (-) TimerEvent: {}
+[4.814250] (-) TimerEvent: {}
+[4.914607] (-) TimerEvent: {}
+[5.014831] (-) TimerEvent: {}
+[5.115091] (-) TimerEvent: {}
+[5.215409] (-) TimerEvent: {}
+[5.315642] (-) TimerEvent: {}
+[5.415860] (-) TimerEvent: {}
+[5.516109] (-) TimerEvent: {}
+[5.616427] (-) TimerEvent: {}
+[5.716653] (-) TimerEvent: {}
+[5.816888] (-) TimerEvent: {}
+[5.917135] (-) TimerEvent: {}
+[6.017453] (-) TimerEvent: {}
+[6.117686] (-) TimerEvent: {}
+[6.217897] (-) TimerEvent: {}
+[6.318205] (-) TimerEvent: {}
+[6.418525] (-) TimerEvent: {}
+[6.518751] (-) TimerEvent: {}
+[6.619034] (-) TimerEvent: {}
+[6.719249] (-) TimerEvent: {}
+[6.819590] (-) TimerEvent: {}
+[6.888664] (stage_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libstage_node.so\x1b[0m\n'}
+[6.919779] (-) TimerEvent: {}
+[7.020115] (-) TimerEvent: {}
+[7.120367] (-) TimerEvent: {}
+[7.220646] (-) TimerEvent: {}
+[7.320893] (-) TimerEvent: {}
+[7.421189] (-) TimerEvent: {}
+[7.425554] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[7.441838] (stage_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o\x1b[0m\n'}
+[7.521308] (-) TimerEvent: {}
+[7.621657] (-) TimerEvent: {}
+[7.721898] (-) TimerEvent: {}
+[7.822172] (-) TimerEvent: {}
+[7.922545] (-) TimerEvent: {}
+[8.022828] (-) TimerEvent: {}
+[8.123079] (-) TimerEvent: {}
+[8.223406] (-) TimerEvent: {}
+[8.323755] (-) TimerEvent: {}
+[8.424097] (-) TimerEvent: {}
+[8.524434] (-) TimerEvent: {}
+[8.624776] (-) TimerEvent: {}
+[8.725135] (-) TimerEvent: {}
+[8.825464] (-) TimerEvent: {}
+[8.925810] (-) TimerEvent: {}
+[9.026137] (-) TimerEvent: {}
+[9.126458] (-) TimerEvent: {}
+[9.226823] (-) TimerEvent: {}
+[9.327087] (-) TimerEvent: {}
+[9.427354] (-) TimerEvent: {}
+[9.527622] (-) TimerEvent: {}
+[9.627891] (-) TimerEvent: {}
+[9.705469] (stage_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stage_ros2\x1b[0m\n'}
+[9.728053] (-) TimerEvent: {}
+[9.828420] (-) TimerEvent: {}
+[9.928866] (-) TimerEvent: {}
+[9.959834] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[9.970734] (stage_ros2) CommandEnded: {'returncode': 0}
+[9.972536] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[9.984320] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2'], 'cwd': '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'luz'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luz'), ('OLDPWD', '/home/luz/Escritorio/Robotica/week9/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2225'), ('SYSTEMD_EXEC_PID', '2589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6971'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luz'), ('JOURNAL_STREAM', '8:3827'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/home/luz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luz-LOQ-15IRH8:@/tmp/.ICE-unix/2382,unix/luz-LOQ-15IRH8:/tmp/.ICE-unix/2382'), ('INVOCATION_ID', 'ff2805e40d374fba871acb09fe6af455'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1PGFD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b5f09248-b585-438a-99a6-4012f30b1346'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/luz/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage')]), 'shell': False}
+[9.993315] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.993795] (stage_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.994085] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[10.004155] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[10.016563] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//launch/demo.launch.py\n'}
+[10.028598] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//launch/f710.launch.py\n'}
+[10.028931] (-) TimerEvent: {}
+[10.039471] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py\n'}
+[10.051129] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py\n'}
+[10.060775] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//launch/stage.launch.py\n'}
+[10.069573] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png\n'}
+[10.081691] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm\n'}
+[10.092551] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png\n'}
+[10.103742] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png\n'}
+[10.113902] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png\n'}
+[10.122486] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm\n'}
+[10.129027] (-) TimerEvent: {}
+[10.130755] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm\n'}
+[10.140967] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm\n'}
+[10.152402] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm\n'}
+[10.160896] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave.world\n'}
+[10.169506] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_multi.world\n'}
+[10.177289] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world\n'}
+[10.188911] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world\n'}
+[10.195534] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/hallway.world\n'}
+[10.201965] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc\n'}
+[10.213725] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/robots.inc\n'}
+[10.225980] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/lines.world\n'}
+[10.229224] (-) TimerEvent: {}
+[10.236894] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/straden.world\n'}
+[10.245279] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world\n'}
+[10.253291] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz\n'}
+[10.266428] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz\n'}
+[10.278113] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz\n'}
+[10.288352] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz\n'}
+[10.297716] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz\n'}
+[10.305403] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz\n'}
+[10.318053] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz\n'}
+[10.328560] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml\n'}
+[10.329324] (-) TimerEvent: {}
+[10.339593] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/lib/libstage_node.so\n'}
+[10.349784] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[10.360754] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[10.372697] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[10.384978] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[10.395461] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[10.406191] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[10.417581] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[10.429367] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[10.429584] (-) TimerEvent: {}
+[10.441548] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[10.454460] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[10.467910] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[10.480623] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[10.492408] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[10.503692] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[10.514064] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[10.524988] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[10.529692] (-) TimerEvent: {}
+[10.537929] (stage_ros2) CommandEnded: {'returncode': 0}
+[10.551648] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[10.552142] (-) EventReactorShutdown: {}

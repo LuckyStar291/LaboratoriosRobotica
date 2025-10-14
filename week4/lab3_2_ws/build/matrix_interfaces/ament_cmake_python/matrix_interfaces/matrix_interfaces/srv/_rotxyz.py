@@ -7,6 +7,8 @@
 
 import builtins  # noqa: E402, I100
 
+import math  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -55,30 +57,30 @@ class Rotxyz_Request(metaclass=Metaclass_Rotxyz_Request):
     """Message class 'Rotxyz_Request'."""
 
     __slots__ = [
-        '_px',
-        '_py',
-        '_pz',
+        '_theta1',
+        '_theta2',
+        '_theta3',
     ]
 
     _fields_and_field_types = {
-        'px': 'int64',
-        'py': 'int64',
-        'pz': 'int64',
+        'theta1': 'double',
+        'theta2': 'double',
+        'theta3': 'double',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
-        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
-        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.px = kwargs.get('px', int())
-        self.py = kwargs.get('py', int())
-        self.pz = kwargs.get('pz', int())
+        self.theta1 = kwargs.get('theta1', float())
+        self.theta2 = kwargs.get('theta2', float())
+        self.theta3 = kwargs.get('theta3', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -109,11 +111,11 @@ class Rotxyz_Request(metaclass=Metaclass_Rotxyz_Request):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.px != other.px:
+        if self.theta1 != other.theta1:
             return False
-        if self.py != other.py:
+        if self.theta2 != other.theta2:
             return False
-        if self.pz != other.pz:
+        if self.theta3 != other.theta3:
             return False
         return True
 
@@ -123,49 +125,49 @@ class Rotxyz_Request(metaclass=Metaclass_Rotxyz_Request):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def px(self):
-        """Message field 'px'."""
-        return self._px
+    def theta1(self):
+        """Message field 'theta1'."""
+        return self._theta1
 
-    @px.setter
-    def px(self, value):
+    @theta1.setter
+    def theta1(self, value):
         if __debug__:
             assert \
-                isinstance(value, int), \
-                "The 'px' field must be of type 'int'"
-            assert value >= -9223372036854775808 and value < 9223372036854775808, \
-                "The 'px' field must be an integer in [-9223372036854775808, 9223372036854775807]"
-        self._px = value
+                isinstance(value, float), \
+                "The 'theta1' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'theta1' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta1 = value
 
     @builtins.property
-    def py(self):
-        """Message field 'py'."""
-        return self._py
+    def theta2(self):
+        """Message field 'theta2'."""
+        return self._theta2
 
-    @py.setter
-    def py(self, value):
+    @theta2.setter
+    def theta2(self, value):
         if __debug__:
             assert \
-                isinstance(value, int), \
-                "The 'py' field must be of type 'int'"
-            assert value >= -9223372036854775808 and value < 9223372036854775808, \
-                "The 'py' field must be an integer in [-9223372036854775808, 9223372036854775807]"
-        self._py = value
+                isinstance(value, float), \
+                "The 'theta2' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'theta2' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta2 = value
 
     @builtins.property
-    def pz(self):
-        """Message field 'pz'."""
-        return self._pz
+    def theta3(self):
+        """Message field 'theta3'."""
+        return self._theta3
 
-    @pz.setter
-    def pz(self, value):
+    @theta3.setter
+    def theta3(self, value):
         if __debug__:
             assert \
-                isinstance(value, int), \
-                "The 'pz' field must be of type 'int'"
-            assert value >= -9223372036854775808 and value < 9223372036854775808, \
-                "The 'pz' field must be an integer in [-9223372036854775808, 9223372036854775807]"
-        self._pz = value
+                isinstance(value, float), \
+                "The 'theta3' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'theta3' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta3 = value
 
 
 # Import statements for member types
@@ -173,7 +175,11 @@ class Rotxyz_Request(metaclass=Metaclass_Rotxyz_Request):
 # already imported above
 # import builtins
 
-import math  # noqa: E402, I100
+# already imported above
+# import math
+
+# Member 'matriz_resultado'
+import numpy  # noqa: E402, I100
 
 # already imported above
 # import rosidl_parser.definition
@@ -224,18 +230,21 @@ class Rotxyz_Response(metaclass=Metaclass_Rotxyz_Response):
     """Message class 'Rotxyz_Response'."""
 
     __slots__ = [
-        '_pa',
-        '_pb',
-        '_pc',
+        '_matriz_resultado',
+        '_x',
+        '_y',
+        '_z',
     ]
 
     _fields_and_field_types = {
-        'pa': 'double',
-        'pb': 'double',
-        'pc': 'double',
+        'matriz_resultado': 'double[16]',
+        'x': 'double',
+        'y': 'double',
+        'z': 'double',
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('double'), 16),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
@@ -245,9 +254,14 @@ class Rotxyz_Response(metaclass=Metaclass_Rotxyz_Response):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.pa = kwargs.get('pa', float())
-        self.pb = kwargs.get('pb', float())
-        self.pc = kwargs.get('pc', float())
+        if 'matriz_resultado' not in kwargs:
+            self.matriz_resultado = numpy.zeros(16, dtype=numpy.float64)
+        else:
+            self.matriz_resultado = numpy.array(kwargs.get('matriz_resultado'), dtype=numpy.float64)
+            assert self.matriz_resultado.shape == (16, )
+        self.x = kwargs.get('x', float())
+        self.y = kwargs.get('y', float())
+        self.z = kwargs.get('z', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -278,11 +292,13 @@ class Rotxyz_Response(metaclass=Metaclass_Rotxyz_Response):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.pa != other.pa:
+        if any(self.matriz_resultado != other.matriz_resultado):
             return False
-        if self.pb != other.pb:
+        if self.x != other.x:
             return False
-        if self.pc != other.pc:
+        if self.y != other.y:
+            return False
+        if self.z != other.z:
             return False
         return True
 
@@ -292,49 +308,80 @@ class Rotxyz_Response(metaclass=Metaclass_Rotxyz_Response):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def pa(self):
-        """Message field 'pa'."""
-        return self._pa
+    def matriz_resultado(self):
+        """Message field 'matriz_resultado'."""
+        return self._matriz_resultado
 
-    @pa.setter
-    def pa(self, value):
+    @matriz_resultado.setter
+    def matriz_resultado(self, value):
+        if isinstance(value, numpy.ndarray):
+            assert value.dtype == numpy.float64, \
+                "The 'matriz_resultado' numpy.ndarray() must have the dtype of 'numpy.float64'"
+            assert value.size == 16, \
+                "The 'matriz_resultado' numpy.ndarray() must have a size of 16"
+            self._matriz_resultado = value
+            return
         if __debug__:
+            from collections.abc import Sequence
+            from collections.abc import Set
+            from collections import UserList
+            from collections import UserString
             assert \
-                isinstance(value, float), \
-                "The 'pa' field must be of type 'float'"
-            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'pa' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._pa = value
+                ((isinstance(value, Sequence) or
+                  isinstance(value, Set) or
+                  isinstance(value, UserList)) and
+                 not isinstance(value, str) and
+                 not isinstance(value, UserString) and
+                 len(value) == 16 and
+                 all(isinstance(v, float) for v in value) and
+                 all(not (val < -1.7976931348623157e+308 or val > 1.7976931348623157e+308) or math.isinf(val) for val in value)), \
+                "The 'matriz_resultado' field must be a set or sequence with length 16 and each value of type 'float' and each double in [-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000, 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000]"
+        self._matriz_resultado = numpy.array(value, dtype=numpy.float64)
 
     @builtins.property
-    def pb(self):
-        """Message field 'pb'."""
-        return self._pb
+    def x(self):
+        """Message field 'x'."""
+        return self._x
 
-    @pb.setter
-    def pb(self, value):
+    @x.setter
+    def x(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'pb' field must be of type 'float'"
+                "The 'x' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'pb' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._pb = value
+                "The 'x' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._x = value
 
     @builtins.property
-    def pc(self):
-        """Message field 'pc'."""
-        return self._pc
+    def y(self):
+        """Message field 'y'."""
+        return self._y
 
-    @pc.setter
-    def pc(self, value):
+    @y.setter
+    def y(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'pc' field must be of type 'float'"
+                "The 'y' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'pc' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._pc = value
+                "The 'y' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._y = value
+
+    @builtins.property
+    def z(self):
+        """Message field 'z'."""
+        return self._z
+
+    @z.setter
+    def z(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'z' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'z' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._z = value
 
 
 class Metaclass_Rotxyz(type):

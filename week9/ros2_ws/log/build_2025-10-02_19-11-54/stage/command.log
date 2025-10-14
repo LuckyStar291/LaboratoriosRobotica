@@ -1,0 +1,4 @@
+Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage': /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage -- -j12 -l12
+Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage' returned '0': /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage -- -j12 -l12
+Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage': /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage
+Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage' returned '0': /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage

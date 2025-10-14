@@ -1,0 +1,160 @@
+[0.010s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage LD_LIBRARY_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros/lib:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/cartographer_ros/cartographer_rviz -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.135s] -- The CXX compiler identification is GNU 11.4.0
+[0.141s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.375s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.375s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.377s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.525s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.598s] -- Looking for pthread.h
+[0.698s] -- Looking for pthread.h - found
+[0.698s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.780s] -- Found Threads: TRUE  
+[0.792s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.796s] -- Found required Ceres dependency: glog
+[0.797s] -- Found required Ceres dependency: gflags
+[0.797s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.810s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams 
+[0.812s] -- Build type: Release
+[0.818s] Los archivos /home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_rviz/AllFiles.cmake y - son distintos
+[0.824s] -- Found cartographer_ros: 2.0.9003 (/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros/share/cartographer_ros/cmake)
+[0.852s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.855s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.862s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.970s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.972s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.064s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.092s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.123s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.200s] -- Checking for module 'eigen3'
+[1.214s] --   Found eigen3, version 3.4.0
+[1.269s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.270s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.379s] -- Checking for module 'flann'
+[1.401s] --   Found flann, version 1.9.1
+[1.480s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.480s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.789s] -- Checking for module 'libusb-1.0'
+[2.813s] --   Found libusb-1.0, version 1.0.25
+[2.877s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.883s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.079s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.218s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.224s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.230s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.433s] -- Found Qhull version 8.0.2
+[3.576s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.701s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.701s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.729s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.731s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.732s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.733s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.734s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.734s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.735s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.736s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.737s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.738s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.739s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.740s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.741s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.741s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.742s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.743s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.743s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.744s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.745s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.745s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.746s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.746s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.747s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.972s] -- Found rviz_common: 11.2.19 (/opt/ros/humble/share/rviz_common/cmake)
+[3.990s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[4.007s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[4.010s] -- Found OGRE
+[4.010s] --   static     : OFF
+[4.011s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[4.011s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[4.011s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[4.011s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[4.011s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[4.011s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[4.012s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[4.012s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[4.012s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[4.012s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[4.012s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[4.024s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[4.027s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[4.050s] -- Found X11: /usr/include   
+[4.259s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.281s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.281s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.350s] -- Deploy OGRE media
+[4.351s] -- Configuring done
+[4.464s] -- Generating done
+[4.472s] -- Build files have been written to: /home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_rviz
+[4.486s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage LD_LIBRARY_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros/lib:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/cartographer_ros/cartographer_rviz -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz
+[4.488s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage LD_LIBRARY_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros/lib:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_rviz -- -j12 -l12
+[4.544s] [ 16%] [34m[1mAutomatic MOC for target cartographer_rviz[0m
+[4.549s] [ 16%] Built target cartographer_rviz_detect_changes
+[6.406s] [ 16%] Built target cartographer_rviz_autogen
+[6.427s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/drawable_submap.cpp.o[0m
+[6.428s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/submaps_display.cpp.o[0m
+[6.428s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/cartographer_rviz_autogen/mocs_compilation.cpp.o[0m
+[6.431s] [ 83%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/ogre_slice.cpp.o[0m
+[20.214s] [100%] [32m[1mLinking CXX shared library libcartographer_rviz.so[0m
+[21.855s] [100%] Built target cartographer_rviz
+[21.864s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage LD_LIBRARY_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros/lib:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_rviz -- -j12 -l12
+[21.866s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage LD_LIBRARY_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros/lib:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_rviz
+[21.877s] -- Install configuration: "Release"
+[21.878s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/rviz_plugin_description.xml
+[21.878s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/lib/libcartographer_rviz.so
+[21.883s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/lib/libcartographer_rviz.so" to ""
+[21.883s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/include/
+[21.883s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/include//cartographer_rviz
+[21.883s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/include//cartographer_rviz/drawable_submap.h
+[21.883s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/include//cartographer_rviz/submaps_display.h
+[21.883s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/include//cartographer_rviz/ogre_slice.h
+[21.883s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.sh
+[21.883s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.dsv
+[21.883s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/package_run_dependencies/cartographer_rviz
+[21.884s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/parent_prefix_path/cartographer_rviz
+[21.884s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.sh
+[21.884s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.dsv
+[21.884s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.sh
+[21.884s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.dsv
+[21.884s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.bash
+[21.884s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.sh
+[21.884s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.zsh
+[21.884s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.dsv
+[21.884s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv
+[21.884s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/packages/cartographer_rviz
+[21.884s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/cartographer_rviz
+[21.885s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120
+[21.885s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.vert
+[21.885s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/glsl120.program
+[21.885s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.frag
+[21.885s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts
+[21.885s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts/submap.material
+[21.885s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_ogre_media_exports/cartographer_rviz
+[21.885s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport.cmake
+[21.885s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport-release.cmake
+[21.885s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.886s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_targets-extras.cmake
+[21.886s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.886s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig.cmake
+[21.886s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig-version.cmake
+[21.886s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/package.xml
+[21.888s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage LD_LIBRARY_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros/lib:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_rviz

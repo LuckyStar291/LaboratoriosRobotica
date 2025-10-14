@@ -250,7 +250,9 @@ CMakeFiles/matrix_interfaces__rosidl_generator_py.dir/rosidl_generator_py/matrix
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/matrix_interfaces/srv/detail/rotxyz__struct.h \
   rosidl_generator_c/matrix_interfaces/srv/detail/rotxyz__functions.h \
-  rosidl_generator_c/matrix_interfaces/msg/rosidl_generator_c__visibility_control.h
+  rosidl_generator_c/matrix_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h
 
 
 /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h:
@@ -390,6 +392,8 @@ CMakeFiles/matrix_interfaces__rosidl_generator_py.dir/rosidl_generator_py/matrix
 /usr/include/python3.10/fileobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -618,6 +622,8 @@ rosidl_generator_py/matrix_interfaces/srv/_rotxyz_s.c:
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 

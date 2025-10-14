@@ -1,0 +1,95 @@
+[0.009s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2
+[0.023s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.105s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.112s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.131s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.133s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.136s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.151s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.172s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.173s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.263s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.295s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.307s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.325s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.336s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.380s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.382s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.383s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.384s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.393s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.454s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.454s] -- Configured cppcheck include dirs: /home/luz/Escritorio/Robotica/week9/ros2_ws/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/luz/Escritorio/Robotica/week9/ros2_ws/src/stage_ros2/include>
+[0.455s] -- Configured cppcheck exclude dirs and/or files: 
+[0.455s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.456s] -- Added test 'lint_cmake' to check CMake code style
+[0.456s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.458s] -- Added test 'uncrustify' to check C / C++ code style
+[0.458s] -- Configured uncrustify additional arguments: 
+[0.459s] -- Added test 'xmllint' to check XML markup files
+[0.459s] -- Configuring done
+[0.471s] -- Generating done
+[0.475s] -- Build files have been written to: /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2
+[0.482s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2
+[0.483s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2 -- -j12 -l12
+[0.518s] [35m[1mConsolidate compiler generated dependencies of target stage_node[0m
+[0.536s] [ 71%] Built target stage_node
+[0.546s] [35m[1mConsolidate compiler generated dependencies of target stage_ros2[0m
+[0.558s] [100%] Built target stage_ros2
+[0.566s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2 -- -j12 -l12
+[0.568s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2
+[0.577s] -- Install configuration: ""
+[0.577s] -- Execute custom install script
+[0.577s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[0.578s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[0.578s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+[0.578s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+[0.578s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+[0.578s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+[0.578s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+[0.579s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+[0.579s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+[0.579s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+[0.579s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+[0.579s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+[0.579s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+[0.579s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+[0.579s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+[0.580s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+[0.580s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave.world
+[0.580s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_multi.world
+[0.580s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+[0.580s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+[0.580s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/hallway.world
+[0.580s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+[0.580s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+[0.581s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/lines.world
+[0.581s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/straden.world
+[0.581s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+[0.581s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+[0.581s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+[0.581s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+[0.581s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+[0.581s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+[0.582s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+[0.582s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+[0.582s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+[0.582s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/lib/libstage_node.so
+[0.582s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/lib/stage_ros2/stage_ros2
+[0.582s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[0.582s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[0.582s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[0.582s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[0.583s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.sh
+[0.583s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[0.583s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.bash
+[0.583s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.sh
+[0.583s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[0.583s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[0.583s] -- Symlinking: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/package.dsv
+[0.590s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[0.590s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[0.590s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[0.591s] -- Up-to-date symlink: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2/share/stage_ros2/package.xml
+[0.593s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2
