@@ -1,0 +1,60 @@
+[0.777s] Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/src/ros2_tutorials/py_examples': PYTHONPATH=/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py_examples build --build-base /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build install --record /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/install.log --single-version-externally-managed install_data
+[0.927s] running egg_info
+[0.927s] creating ../../../build/py_examples/py_examples.egg-info
+[0.928s] writing ../../../build/py_examples/py_examples.egg-info/PKG-INFO
+[0.928s] writing dependency_links to ../../../build/py_examples/py_examples.egg-info/dependency_links.txt
+[0.928s] writing entry points to ../../../build/py_examples/py_examples.egg-info/entry_points.txt
+[0.928s] writing requirements to ../../../build/py_examples/py_examples.egg-info/requires.txt
+[0.928s] writing top-level names to ../../../build/py_examples/py_examples.egg-info/top_level.txt
+[0.928s] writing manifest file '../../../build/py_examples/py_examples.egg-info/SOURCES.txt'
+[0.929s] reading manifest file '../../../build/py_examples/py_examples.egg-info/SOURCES.txt'
+[0.929s] adding license file 'LICENSE'
+[0.930s] writing manifest file '../../../build/py_examples/py_examples.egg-info/SOURCES.txt'
+[0.930s] running build
+[0.930s] running build_py
+[0.930s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build
+[0.930s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib
+[0.930s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples
+[0.930s] copying py_examples/client_py_example.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples
+[0.930s] copying py_examples/position_client.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples
+[0.930s] copying py_examples/__init__.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples
+[0.930s] copying py_examples/service_py_example.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples
+[0.930s] copying py_examples/position_service.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples
+[0.931s] copying py_examples/sub.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples
+[0.931s] copying py_examples/pub.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples
+[0.931s] running install
+[0.931s] running install_lib
+[0.931s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.931s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples/client_py_example.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.931s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples/position_client.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.931s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples/__init__.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.931s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples/service_py_example.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.931s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples/position_service.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.931s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples/sub.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.932s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build/lib/py_examples/pub.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[0.932s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples/client_py_example.py to client_py_example.cpython-310.pyc
+[0.932s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples/position_client.py to position_client.cpython-310.pyc
+[0.932s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples/__init__.py to __init__.cpython-310.pyc
+[0.932s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples/service_py_example.py to service_py_example.cpython-310.pyc
+[0.932s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples/position_service.py to position_service.cpython-310.pyc
+[0.932s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples/sub.py to sub.cpython-310.pyc
+[0.933s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples/pub.py to pub.cpython-310.pyc
+[0.933s] running install_data
+[0.933s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/share/ament_index
+[0.933s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/share/ament_index/resource_index
+[0.933s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/share/ament_index/resource_index/packages
+[0.933s] copying resource/py_examples -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/share/ament_index/resource_index/packages
+[0.933s] copying package.xml -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/share/py_examples
+[0.933s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/share/py_examples/launch
+[0.933s] copying launch/py_example_launch.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/share/py_examples/launch
+[0.934s] running install_egg_info
+[0.934s] Copying ../../../build/py_examples/py_examples.egg-info to /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages/py_examples-0.0.0-py3.10.egg-info
+[0.935s] running install_scripts
+[0.948s] Installing client script to /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/py_examples
+[0.948s] Installing pos_client script to /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/py_examples
+[0.948s] Installing pos_server script to /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/py_examples
+[0.948s] Installing publipy script to /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/py_examples
+[0.948s] Installing server script to /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/py_examples
+[0.948s] Installing subpy script to /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/py_examples
+[0.949s] writing list of installed files to '/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/install.log'
+[0.967s] Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/src/ros2_tutorials/py_examples' returned '0': PYTHONPATH=/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py_examples build --build-base /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/build install --record /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/py_examples/install.log --single-version-externally-managed install_data

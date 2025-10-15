@@ -1,0 +1,9 @@
+{
+  "package_name": "custom_interface",
+  "non_idl_tuples": [
+    "/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/src/ros2_tutorials/custom_interface:msg/Num.msg",
+    "/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/src/ros2_tutorials/custom_interface:msg/Sphere.msg",
+    "/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/src/ros2_tutorials/custom_interface:srv/AddThreeInts.srv",
+    "/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/src/ros2_tutorials/custom_interface:srv/GetPosition.srv"
+  ]
+}

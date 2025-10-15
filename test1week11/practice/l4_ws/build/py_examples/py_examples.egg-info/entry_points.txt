@@ -1,0 +1,8 @@
+[console_scripts]
+client = py_examples.client_py_example:main
+pos_client = py_examples.position_client:main
+pos_server = py_examples.position_service:main
+publipy = py_examples.pub:main
+server = py_examples.service_py_example:main
+subpy = py_examples.sub:main
+

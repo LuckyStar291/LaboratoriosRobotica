@@ -1,0 +1,1 @@
+Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/custom_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/src/ros2_tutorials/custom_interface -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/custom_interface

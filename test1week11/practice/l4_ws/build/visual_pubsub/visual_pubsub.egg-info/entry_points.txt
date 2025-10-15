@@ -1,0 +1,4 @@
+[console_scripts]
+pub_joints = visual_pubsub.pub_joints:main
+sub_joints = visual_pubsub.sub_joints:main
+

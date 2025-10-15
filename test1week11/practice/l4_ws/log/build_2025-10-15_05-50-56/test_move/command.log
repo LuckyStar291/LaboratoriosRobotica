@@ -1,0 +1,4 @@
+Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/test_move': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/test_move -- -j12 -l12
+Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/test_move -- -j12 -l12
+Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/test_move': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/test_move
+Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/build/test_move

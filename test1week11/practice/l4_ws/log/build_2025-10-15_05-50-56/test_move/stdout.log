@@ -1,0 +1,31 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/draw_a.dir/src/a_path.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/collition.dir/src/move_constrain.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable collition[0m
+[ 66%] Built target collition
+[ 83%] [32m[1mLinking CXX executable draw_a[0m
+[100%] [32m[1mLinking CXX executable hello_moveit[0m
+[100%] Built target draw_a
+[100%] Built target hello_moveit
+-- Install configuration: ""
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/lib/test_move/hello_moveit
+-- Set runtime path of "/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/lib/test_move/hello_moveit" to ""
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/lib/test_move/collition
+-- Set runtime path of "/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/lib/test_move/collition" to ""
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/lib/test_move/draw_a
+-- Set runtime path of "/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/lib/test_move/draw_a" to ""
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/ament_index/resource_index/package_run_dependencies/test_move
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/ament_index/resource_index/parent_prefix_path/test_move
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/test_move/environment/ament_prefix_path.sh
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/test_move/environment/ament_prefix_path.dsv
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/test_move/environment/path.sh
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/test_move/environment/path.dsv
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/test_move/local_setup.bash
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/test_move/local_setup.sh
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/test_move/local_setup.zsh
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/test_move/local_setup.dsv
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/test_move/package.dsv
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/ament_index/resource_index/packages/test_move
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/test_move/cmake/test_moveConfig.cmake
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/test_move/cmake/test_moveConfig-version.cmake
+-- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/test_move/share/test_move/package.xml
