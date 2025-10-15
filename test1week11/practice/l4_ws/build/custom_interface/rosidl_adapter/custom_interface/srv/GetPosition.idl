@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interface/srv/GetPosition.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interface {
+  module srv {
+    struct GetPosition_Request {
+      double th1;
+
+      double th2;
+
+      double th3;
+
+      double l1;
+
+      double l2;
+    };
+    struct GetPosition_Response {
+      double x;
+
+      double y;
+
+      double z;
+    };
+  };
+};
