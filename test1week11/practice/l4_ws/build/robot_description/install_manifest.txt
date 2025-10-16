@@ -8,6 +8,7 @@
 /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/robot_description/share/robot_description/urdf/guillecar.urdf
 /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/robot_description/share/robot_description/urdf/myfirst_robot.urdf
 /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/robot_description/share/robot_description/urdf/multipleshapes.gv
+/home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/robot_description/share/robot_description/urdf/trr.urdf
 /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/robot_description/share/robot_description/urdf/pantilt.urdf
 /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/robot_description/share/robot_description/urdf/diff_wheeled_robot.urdf
 /home/luz/Escritorio/Robotica/test1week11/practice/l4_ws/install/robot_description/share/robot_description/urdf/cobot_arm.urdf

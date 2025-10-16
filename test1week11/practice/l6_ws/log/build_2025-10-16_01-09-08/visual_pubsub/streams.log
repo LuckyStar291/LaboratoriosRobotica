@@ -1,0 +1,45 @@
+[0.602s] Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/visual_pubsub': PYTHONPATH=/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/visual_pubsub build --build-base /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build install --record /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/install.log --single-version-externally-managed install_data
+[0.749s] running egg_info
+[0.749s] creating ../../../build/visual_pubsub/visual_pubsub.egg-info
+[0.749s] writing ../../../build/visual_pubsub/visual_pubsub.egg-info/PKG-INFO
+[0.749s] writing dependency_links to ../../../build/visual_pubsub/visual_pubsub.egg-info/dependency_links.txt
+[0.750s] writing entry points to ../../../build/visual_pubsub/visual_pubsub.egg-info/entry_points.txt
+[0.750s] writing requirements to ../../../build/visual_pubsub/visual_pubsub.egg-info/requires.txt
+[0.750s] writing top-level names to ../../../build/visual_pubsub/visual_pubsub.egg-info/top_level.txt
+[0.750s] writing manifest file '../../../build/visual_pubsub/visual_pubsub.egg-info/SOURCES.txt'
+[0.751s] reading manifest file '../../../build/visual_pubsub/visual_pubsub.egg-info/SOURCES.txt'
+[0.751s] adding license file 'LICENSE'
+[0.751s] writing manifest file '../../../build/visual_pubsub/visual_pubsub.egg-info/SOURCES.txt'
+[0.751s] running build
+[0.751s] running build_py
+[0.752s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build
+[0.752s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build/lib
+[0.752s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build/lib/visual_pubsub
+[0.752s] copying visual_pubsub/pub_joints.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build/lib/visual_pubsub
+[0.752s] copying visual_pubsub/sub_joints.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build/lib/visual_pubsub
+[0.752s] copying visual_pubsub/inverse_kinematics.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build/lib/visual_pubsub
+[0.752s] copying visual_pubsub/__init__.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build/lib/visual_pubsub
+[0.752s] running install
+[0.752s] running install_lib
+[0.752s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub
+[0.752s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build/lib/visual_pubsub/pub_joints.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub
+[0.752s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build/lib/visual_pubsub/sub_joints.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub
+[0.753s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build/lib/visual_pubsub/inverse_kinematics.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub
+[0.753s] copying /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build/lib/visual_pubsub/__init__.py -> /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub
+[0.753s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub/pub_joints.py to pub_joints.cpython-310.pyc
+[0.753s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub/sub_joints.py to sub_joints.cpython-310.pyc
+[0.753s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub/inverse_kinematics.py to inverse_kinematics.cpython-310.pyc
+[0.754s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.754s] running install_data
+[0.754s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/ament_index
+[0.754s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/ament_index/resource_index
+[0.754s] creating /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/ament_index/resource_index/packages
+[0.754s] copying resource/visual_pubsub -> /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/ament_index/resource_index/packages
+[0.754s] copying package.xml -> /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/visual_pubsub
+[0.755s] running install_egg_info
+[0.755s] Copying ../../../build/visual_pubsub/visual_pubsub.egg-info to /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub-0.0.0-py3.10.egg-info
+[0.756s] running install_scripts
+[0.769s] Installing pub_joints script to /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/visual_pubsub
+[0.769s] Installing sub_joints script to /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/visual_pubsub
+[0.769s] writing list of installed files to '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/install.log'
+[0.786s] Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/visual_pubsub' returned '0': PYTHONPATH=/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/visual_pubsub build --build-base /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build install --record /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/install.log --single-version-externally-managed install_data
