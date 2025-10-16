@@ -1,0 +1,93 @@
+[0.011s] Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/test_move -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.158s] -- Detecting C compiler ABI info - done
+[0.163s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.164s] -- Detecting C compile features
+[0.164s] -- Detecting C compile features - done
+[0.166s] -- Detecting CXX compiler ABI info
+[0.224s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.229s] -- Detecting CXX compile features
+[0.229s] -- Detecting CXX compile features - done
+[0.231s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.343s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.413s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.586s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.639s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.645s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.656s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.672s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.691s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.907s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.975s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.035s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.041s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.144s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.165s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.201s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.213s] -- Found Threads: TRUE  
+[1.268s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.297s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.410s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.452s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.452s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.602s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.629s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.651s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.679s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.731s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.732s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/test_move/include>
+[1.732s] -- Configured cppcheck exclude dirs and/or files: 
+[1.732s] -- Added test 'lint_cmake' to check CMake code style
+[1.732s] -- Added test 'uncrustify' to check C / C++ code style
+[1.733s] -- Configured uncrustify additional arguments: 
+[1.733s] -- Added test 'xmllint' to check XML markup files
+[1.733s] -- Configuring done
+[1.769s] -- Generating done
+[1.780s] -- Build files have been written to: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move
+[1.789s] Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/test_move -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move
+[1.790s] Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move -- -j12 -l12
+[1.836s] [ 16%] [32mBuilding CXX object CMakeFiles/draw_a.dir/src/a_path.cpp.o[0m
+[1.837s] [ 33%] [32mBuilding CXX object CMakeFiles/collition.dir/src/move_constrain.cpp.o[0m
+[1.843s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[4.896s] [01m[K/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/test_move/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.896s] [01m[K/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/test_move/src/hello_moveit.cpp:31:92:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.896s]    31 |   bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[4.896s]       |                                                                                            [01;35m[K^~~~~~~[m[K
+[4.897s] In file included from [01m[K/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/test_move/src/hello_moveit.cpp:3[m[K:
+[4.897s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.897s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[4.897s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.062s] [ 66%] [32m[1mLinking CXX executable collition[0m
+[6.324s] [ 66%] Built target collition
+[6.718s] [ 83%] [32m[1mLinking CXX executable draw_a[0m
+[6.732s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[6.940s] [100%] Built target hello_moveit
+[6.941s] [100%] Built target draw_a
+[6.953s] Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move -- -j12 -l12
+[6.955s] Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move
+[6.961s] -- Install configuration: ""
+[6.962s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/test_move/hello_moveit
+[6.962s] -- Set runtime path of "/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/test_move/hello_moveit" to ""
+[6.962s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/test_move/collition
+[6.962s] -- Set runtime path of "/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/test_move/collition" to ""
+[6.962s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/test_move/draw_a
+[6.962s] -- Set runtime path of "/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/test_move/draw_a" to ""
+[6.962s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/ament_index/resource_index/package_run_dependencies/test_move
+[6.962s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/ament_index/resource_index/parent_prefix_path/test_move
+[6.962s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/environment/ament_prefix_path.sh
+[6.963s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/environment/ament_prefix_path.dsv
+[6.963s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/environment/path.sh
+[6.963s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/environment/path.dsv
+[6.963s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/local_setup.bash
+[6.963s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/local_setup.sh
+[6.963s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/local_setup.zsh
+[6.963s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/local_setup.dsv
+[6.963s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.dsv
+[6.963s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/ament_index/resource_index/packages/test_move
+[6.964s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/cmake/test_moveConfig.cmake
+[6.964s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/cmake/test_moveConfig-version.cmake
+[6.964s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.xml
+[6.966s] Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move
