@@ -18,7 +18,7 @@ class JointStatePublisher(Node):
         msg.name = [ # <- nombres de juntas que se publican (deben existir en tu URDF si quieres que RViz se anime)
             'q1', 'q2', 'q3'
         ]
-        msg.position = [90, 90, 90] # <- posiciones de las juntas
+        msg.position = [0.2, 0.9, 0.4] # <- posiciones de las juntas
 
         self.publisher_.publish(msg)
         self.get_logger().info(

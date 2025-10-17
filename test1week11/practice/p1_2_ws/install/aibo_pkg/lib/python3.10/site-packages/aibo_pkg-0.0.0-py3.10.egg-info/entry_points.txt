@@ -1,0 +1,4 @@
+[console_scripts]
+Client_aibo = aibo_pkg.client_aibo:main
+Server_aibo = aibo_pkg.server_aibo:main
+

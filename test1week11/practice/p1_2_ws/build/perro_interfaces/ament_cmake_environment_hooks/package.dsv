@@ -1,0 +1,4 @@
+source;share/perro_interfaces/local_setup.bash
+source;share/perro_interfaces/local_setup.dsv
+source;share/perro_interfaces/local_setup.sh
+source;share/perro_interfaces/local_setup.zsh

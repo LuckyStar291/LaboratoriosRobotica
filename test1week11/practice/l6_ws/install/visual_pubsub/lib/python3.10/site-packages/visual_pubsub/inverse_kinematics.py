@@ -18,40 +18,39 @@ class InverseKinematics(Node):
         self.q = np.array([-0.22, 0.7, 0.03])  # definimos una posición inicial random
 
         # Robot link lengths
-        self.l1 = 3.0
-        self.l2 = 5.0
-        self.l3 = 1.0
+        self.l1 = 2.0
+        self.l2 = 1.5
+        self.l3 = 0.8
 
         self.timer = self.create_timer(0.1, self.update_joints)
-        self.target_pos = np.array([4.0, 2.0, 0.5])  # Insertar un punto final x, y, z
+        self.target_pos = np.array([1.0, 1.0, 0.1])  # Insertar un punto final x, y, z
 
         # Parameters for IK
         self.step_size = 0.05
         self.max_iterations = 100
-        self.tolerance = 0.01
+        self.tolerance = 0.1 #es muy chiqui 0.01
         self.damping_factor = 0.1  # For damped least squares method
 
     def forward_kinematics(self, q):
         q1, q2,q3 = q
-        x = self.l2 * np.cos(q1) +self.l3 * np.cos(q1+q2)
-        y = self.l2 * np.sin(q1) +self.l3 * np.sin(q1+q2)
-        z = q3 + self.l1
+        x = self.l1*np.cos(q1) + self.l2*np.cos(q1 + q2) + self.l3*np.cos(q1 + q2 + q3)
+        y = self.l1*np.sin(q1) + self.l2*np.sin(q1 + q2) + self.l3*np.sin(q1 + q2 + q3)
+        z = 0
         return np.array([x, y, z])
 
     def jacobian(self, q):
         q1, q2, q3 = q
 
 
-        j11 = -self.l2*np.sin(q1) - self.l3* np.sin(q1 + q2)
-        j12 = -self.l3*np.sin(q1 + q2)
-        j13 = 0
-        j21 = self.l2*np.cos(q1) + self.l3* np.cos(q1 + q2)
-        j22 = self.l3*np.cos(q1 + q2) 
-        j23 = 0
-
+        j11 = -self.l1*np.sin(q1) - self.l2*np.sin(q1 + q2) - self.l3*np.sin(q1 + q2 + q3)
+        j12 = -self.l2*np.sin(q1 + q2) - self.l3*np.sin(q1 + q2 + q3)
+        j13 = -self.l3*np.sin(q1 + q2 + q3)
+        j21 = self.l1*np.cos(q1) + self.l2*np.cos(q1 + q2) + self.l3*np.cos(q1 + q2 + q3)
+        j22 = self.l2*np.cos(q1 + q2) + self.l3*np.cos(q1 + q2 + q3)
+        j23 = self.l3*np.cos(q1 + q2 + q3)
         j31 = 0
         j32 = 0
-        j33 = -1
+        j33 = 0
 
         return np.array([[j11, j12, j13], [j21, j22, j23], [j31, j32, j33]])
 

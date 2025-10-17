@@ -17,12 +17,12 @@ def generate_launch_description():
     launch method
     """
     urdf_tutorial_path = get_package_share_path('robot_description')
-    default_model_path = urdf_tutorial_path / 'urdf/trr.urdf' #cambiar NAME.urdf
+    default_model_path = urdf_tutorial_path / 'urdf/indice.urdf' #cambiar NAME.urdf
     default_rviz_config_path = urdf_tutorial_path / 'rviz/urdf.rviz'
 
     gui_arg = DeclareLaunchArgument(
         name='gui',
-        default_value='false', #Se modifica a false para que no se abra la ventana de configuración de las juntas
+        default_value='true', #Se modifica a false para que no se abra la ventana de configuración de las juntas
         choices=['true', 'false'],
         description='Flag to enable joint_state_publisher_gui')
     model_arg = DeclareLaunchArgument(

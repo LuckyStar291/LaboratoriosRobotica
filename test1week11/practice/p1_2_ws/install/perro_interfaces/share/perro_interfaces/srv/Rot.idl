@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from perro_interfaces/srv/Rot.srv
+// generated code does not contain a copyright notice
+
+
+module perro_interfaces {
+  module srv {
+    struct Rot_Request {
+      float th1_deg;
+
+      float th2_deg;
+
+      float th3_deg;
+    };
+    struct Rot_Response {
+      float x_mm;
+
+      float y_mm;
+
+      float z_mm;
+    };
+  };
+};
