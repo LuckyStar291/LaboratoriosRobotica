@@ -1,0 +1,8 @@
+setup.py
+perro_interfaces/__init__.py
+perro_interfaces.egg-info/PKG-INFO
+perro_interfaces.egg-info/SOURCES.txt
+perro_interfaces.egg-info/dependency_links.txt
+perro_interfaces.egg-info/top_level.txt
+perro_interfaces/srv/__init__.py
+perro_interfaces/srv/_rot.py

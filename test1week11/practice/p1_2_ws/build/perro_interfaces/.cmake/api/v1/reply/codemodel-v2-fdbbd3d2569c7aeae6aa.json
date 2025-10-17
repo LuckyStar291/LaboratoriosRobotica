@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ebeae90c58d3f8d1510e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "perro_interfaces__py",
+					"jsonFile" : "directory-perro_interfaces__py-cdc361ca7702a0e919f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/luz/Escritorio/Robotica/test1week11/practice/p1_2_ws/build/perro_interfaces/perro_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "perro_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_perro_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_perro_interfaces_egg-ba2cdcd3825e91ca1114.json",
+					"name" : "ament_cmake_python_build_perro_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_perro_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_perro_interfaces-b46298d1326352b9a2c8.json",
+					"name" : "ament_cmake_python_copy_perro_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces-b56b6caa6d429a445805.json",
+					"name" : "perro_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces__cpp-9b63606741bbd9f5d3a6.json",
+					"name" : "perro_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "perro_interfaces__py::@fc06639a117a67c0f42f",
+					"jsonFile" : "target-perro_interfaces__py-b71b0b128c454b1fe13e.json",
+					"name" : "perro_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces__rosidl_generator_c-6a4e71046377c642330e.json",
+					"name" : "perro_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces__rosidl_generator_py-a94a75398c25820a8735.json",
+					"name" : "perro_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces__rosidl_typesupport_c-0b0a5ca0de3ea253e635.json",
+					"name" : "perro_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces__rosidl_typesupport_c__pyext-029637075b4980b35be4.json",
+					"name" : "perro_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces__rosidl_typesupport_cpp-0216734a5f8f703890d7.json",
+					"name" : "perro_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces__rosidl_typesupport_fastrtps_c-81b9d1327ab990340ca4.json",
+					"name" : "perro_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces__rosidl_typesupport_fastrtps_c__pyext-f91dc6557e956cc8129f.json",
+					"name" : "perro_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces__rosidl_typesupport_fastrtps_cpp-179b94e5865f414bcc7e.json",
+					"name" : "perro_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces__rosidl_typesupport_introspection_c-ad963327163a3c46176d.json",
+					"name" : "perro_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces__rosidl_typesupport_introspection_c__pyext-bf392e6257d9aa4c17e4.json",
+					"name" : "perro_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces__rosidl_typesupport_introspection_cpp-e890a1436ce33e9af774.json",
+					"name" : "perro_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perro_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perro_interfaces_uninstall-7d252738c3af68324081.json",
+					"name" : "perro_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f960c5b07a64bc93321f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/luz/Escritorio/Robotica/test1week11/practice/p1_2_ws/build/perro_interfaces",
+		"source" : "/home/luz/Escritorio/Robotica/test1week11/practice/p1_2_ws/src/perro_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libperro_interfaces__rosidl_generator_c.so -o libperro_interfaces__rosidl_generator_c.so CMakeFiles/perro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/perro_interfaces/srv/detail/rot__functions.c.o  -Wl,-rpath,/opt/ros/humble/lib: /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librcutils.so -ldl 

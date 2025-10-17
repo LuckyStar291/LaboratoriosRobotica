@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "perro_interfaces__py",
+		"source" : "/home/luz/Escritorio/Robotica/test1week11/practice/p1_2_ws/build/perro_interfaces/perro_interfaces__py"
+	}
+}

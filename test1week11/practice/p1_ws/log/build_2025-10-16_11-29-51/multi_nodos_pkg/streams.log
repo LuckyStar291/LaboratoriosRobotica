@@ -1,0 +1,26 @@
+[0.396s] Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/src/multi_nodos_pkg': PYTHONPATH=/home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/build/multi_nodos_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/install/multi_nodos_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_nodos_pkg build --build-base /home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/build/multi_nodos_pkg/build install --record /home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/build/multi_nodos_pkg/install.log --single-version-externally-managed install_data
+[0.550s] running egg_info
+[0.550s] writing ../../build/multi_nodos_pkg/multi_nodos_pkg.egg-info/PKG-INFO
+[0.551s] writing dependency_links to ../../build/multi_nodos_pkg/multi_nodos_pkg.egg-info/dependency_links.txt
+[0.551s] writing entry points to ../../build/multi_nodos_pkg/multi_nodos_pkg.egg-info/entry_points.txt
+[0.551s] writing requirements to ../../build/multi_nodos_pkg/multi_nodos_pkg.egg-info/requires.txt
+[0.551s] writing top-level names to ../../build/multi_nodos_pkg/multi_nodos_pkg.egg-info/top_level.txt
+[0.552s] reading manifest file '../../build/multi_nodos_pkg/multi_nodos_pkg.egg-info/SOURCES.txt'
+[0.552s] adding license file 'LICENSE'
+[0.553s] writing manifest file '../../build/multi_nodos_pkg/multi_nodos_pkg.egg-info/SOURCES.txt'
+[0.553s] running build
+[0.553s] running build_py
+[0.553s] copying multi_nodos_pkg/sensor_node.py -> /home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/build/multi_nodos_pkg/build/lib/multi_nodos_pkg
+[0.553s] running install
+[0.553s] running install_lib
+[0.554s] copying /home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/build/multi_nodos_pkg/build/lib/multi_nodos_pkg/sensor_node.py -> /home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/install/multi_nodos_pkg/lib/python3.10/site-packages/multi_nodos_pkg
+[0.554s] byte-compiling /home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/install/multi_nodos_pkg/lib/python3.10/site-packages/multi_nodos_pkg/sensor_node.py to sensor_node.cpython-310.pyc
+[0.554s] running install_data
+[0.554s] copying package.xml -> /home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/install/multi_nodos_pkg/share/multi_nodos_pkg
+[0.554s] running install_egg_info
+[0.555s] removing '/home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/install/multi_nodos_pkg/lib/python3.10/site-packages/multi_nodos_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.556s] Copying ../../build/multi_nodos_pkg/multi_nodos_pkg.egg-info to /home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/install/multi_nodos_pkg/lib/python3.10/site-packages/multi_nodos_pkg-0.0.0-py3.10.egg-info
+[0.556s] running install_scripts
+[0.569s] Installing sensor script to /home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/install/multi_nodos_pkg/lib/multi_nodos_pkg
+[0.569s] writing list of installed files to '/home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/build/multi_nodos_pkg/install.log'
+[0.585s] Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/src/multi_nodos_pkg' returned '0': PYTHONPATH=/home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/build/multi_nodos_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/install/multi_nodos_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_nodos_pkg build --build-base /home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/build/multi_nodos_pkg/build install --record /home/luz/Escritorio/Robotica/test1week11/practice/p1_ws/build/multi_nodos_pkg/install.log --single-version-externally-managed install_data

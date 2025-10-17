@@ -1,5 +1,6 @@
 /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/launch/view_robot.launch.py
 /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/urdf/wally1.urdf
+/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/urdf/indice.urdf
 /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/urdf/scara.urdf
 /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/urdf/clases_test.urdf
 /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/urdf/panda.urdf

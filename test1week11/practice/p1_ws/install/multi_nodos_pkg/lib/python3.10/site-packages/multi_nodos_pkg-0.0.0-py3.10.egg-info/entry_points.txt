@@ -1,0 +1,7 @@
+[console_scripts]
+controller = multi_nodos_pkg.controller_node:main
+filter = multi_nodos_pkg.filter_node:main
+logger = multi_nodos_pkg.logger_node:main
+planner = multi_nodos_pkg.planner_node:main
+sensor = multi_nodos_pkg.sensor_node:main
+
