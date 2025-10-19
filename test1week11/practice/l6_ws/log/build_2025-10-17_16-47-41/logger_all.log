@@ -1,0 +1,329 @@
+[0.091s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.091s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74920b95b130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74920b914b50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74920b914b50>>, mixin_verb=('build',))
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.205s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/panda_config_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/panda_config_moveit) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/panda_config_moveit) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/panda_config_moveit) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/panda_config_moveit) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/panda_config_moveit) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/panda_config_moveit) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/panda_config_moveit) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/panda_config_moveit) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials/panda_config_moveit' with type 'ros.ament_cmake' and name 'panda_config_moveit'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/test_move) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/test_move) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/test_move) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/test_move) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/test_move) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/test_move) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/test_move) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/test_move) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/test_move) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials/test_move' with type 'ros.ament_cmake' and name 'test_move'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials/visual_pubsub' with type 'ros.ament_python' and name 'visual_pubsub'
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.244s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install
+[0.245s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 468 installed packages in /opt/ros/humble
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description', 'merge_install': False, 'path': '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'test_move' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move', 'merge_install': False, 'path': '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/test_move', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'visual_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub', 'merge_install': False, 'path': '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/visual_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'panda_config_moveit' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'panda_config_moveit' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'panda_config_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'panda_config_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'panda_config_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'panda_config_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'panda_config_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'panda_config_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'panda_config_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'panda_config_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/panda_config_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit', 'merge_install': False, 'path': '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/panda_config_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.283s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.284s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.284s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/robot_description' with build type 'ament_cmake'
+[0.284s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/robot_description'
+[0.286s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/test_move' with build type 'ament_cmake'
+[0.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/test_move'
+[0.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/visual_pubsub' with build type 'ament_python'
+[0.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('visual_pubsub', 'ament_prefix_path')
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/visual_pubsub/hook/ament_prefix_path.ps1'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/visual_pubsub/hook/ament_prefix_path.dsv'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/visual_pubsub/hook/ament_prefix_path.sh'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/robot_description -- -j12 -l12
+[0.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move -- -j12 -l12
+[0.489s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/visual_pubsub'
+[0.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/robot_description -- -j12 -l12
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/robot_description
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move -- -j12 -l12
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move
+[0.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[0.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/robot_description
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description' for CMake module files
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description' for CMake config files
+[0.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/bin'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/lib/python3.10/site-packages'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/bin'
+[0.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/package.ps1'
+[0.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/package.dsv'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/package.sh'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/package.bash'
+[0.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/package.zsh'
+[0.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[0.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description' for CMake module files
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description' for CMake config files
+[0.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/bin'
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/lib/python3.10/site-packages'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/bin'
+[0.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/package.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/package.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/package.sh'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/package.bash'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/robot_description/package.zsh'
+[0.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[0.553s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/panda_config_moveit' with build type 'ament_cmake'
+[0.553s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/panda_config_moveit'
+[0.553s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.553s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_move)
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move' for CMake module files
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move' for CMake config files
+[0.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_move', 'cmake_prefix_path')
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/hook/cmake_prefix_path.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/hook/cmake_prefix_path.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/hook/cmake_prefix_path.sh'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/bin'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/pkgconfig/test_move.pc'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/python3.10/site-packages'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/bin'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.dsv'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.sh'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.bash'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.zsh'
+[0.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/colcon-core/packages/test_move)
+[0.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_move)
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move' for CMake module files
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move' for CMake config files
+[0.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_move', 'cmake_prefix_path')
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/hook/cmake_prefix_path.ps1'
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/hook/cmake_prefix_path.dsv'
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/hook/cmake_prefix_path.sh'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/bin'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/pkgconfig/test_move.pc'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/python3.10/site-packages'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/bin'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.ps1'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.dsv'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.sh'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.bash'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.zsh'
+[0.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/colcon-core/packages/test_move)
+[0.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/panda_config_moveit': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/panda_config_moveit -- -j12 -l12
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/panda_config_moveit' returned '0': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/panda_config_moveit -- -j12 -l12
+[0.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/panda_config_moveit': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/panda_config_moveit
+[0.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_config_moveit)
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit' for CMake module files
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/panda_config_moveit' returned '0': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/robot_description:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/panda_config_moveit
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit' for CMake config files
+[0.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_config_moveit', 'cmake_prefix_path')
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/hook/cmake_prefix_path.ps1'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/hook/cmake_prefix_path.dsv'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/hook/cmake_prefix_path.sh'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/bin'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/lib/pkgconfig/panda_config_moveit.pc'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/lib/python3.10/site-packages'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/bin'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/package.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/package.dsv'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/package.sh'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/package.bash'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/package.zsh'
+[0.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/colcon-core/packages/panda_config_moveit)
+[0.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_config_moveit)
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit' for CMake module files
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit' for CMake config files
+[0.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_config_moveit', 'cmake_prefix_path')
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/hook/cmake_prefix_path.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/hook/cmake_prefix_path.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/hook/cmake_prefix_path.sh'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/bin'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/lib/pkgconfig/panda_config_moveit.pc'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/lib/python3.10/site-packages'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/bin'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/package.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/package.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/package.sh'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/package.bash'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/panda_config_moveit/package.zsh'
+[0.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/panda_config_moveit/share/colcon-core/packages/panda_config_moveit)
+[0.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/visual_pubsub': PYTHONPATH=/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/visual_pubsub build --build-base /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build install --record /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/install.log --single-version-externally-managed install_data
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub' for CMake module files
+[1.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/src/ros2_tutorials/visual_pubsub' returned '0': PYTHONPATH=/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/visual_pubsub build --build-base /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/build install --record /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/visual_pubsub/install.log --single-version-externally-managed install_data
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub' for CMake config files
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib'
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/bin'
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/pkgconfig/visual_pubsub.pc'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/lib/python3.10/site-packages'
+[1.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('visual_pubsub', 'pythonpath')
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/visual_pubsub/hook/pythonpath.ps1'
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/visual_pubsub/hook/pythonpath.dsv'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/visual_pubsub/hook/pythonpath.sh'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/bin'
+[1.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visual_pubsub)
+[1.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/visual_pubsub/package.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/visual_pubsub/package.dsv'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/visual_pubsub/package.sh'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/visual_pubsub/package.bash'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/visual_pubsub/package.zsh'
+[1.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub/share/colcon-core/packages/visual_pubsub)
+[1.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.027s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.032s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.032s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.032s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.041s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/local_setup.ps1'
+[1.044s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/_local_setup_util_ps1.py'
+[1.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/setup.ps1'
+[1.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/local_setup.sh'
+[1.053s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/_local_setup_util_sh.py'
+[1.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/setup.sh'
+[1.058s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/local_setup.bash'
+[1.060s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/setup.bash'
+[1.062s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/local_setup.zsh'
+[1.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/setup.zsh'

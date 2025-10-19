@@ -1,124 +1,303 @@
-<robot name="example_robot_visible">
-    <material name="blue">          <color rgba="0 0 1 1.0"/>     </material>
-    <material name="orange">           <color rgba="1 0.5 0 1"/>
-    </material> 
-    <material name="red">
-        <color rgba="1 0 0 1.0"/>     </material>
+<?xml version="1.0"?>
+<robot name="two_arms_6R">
 
-    <link name="link0_passive">
-        <visual>
-            <material name="orange"/>
-            <geometry>
-                <origin xyz="0 0 0" rpy="0 0 0"/>
-                <cylinder length="0.2" radius="0.15"/>             </geometry>
-        </visual>
-    </link>
-    <link name="link0_x_axis">
-        <visual>
-            <material name="orange"/>
-            <geometry>
-                <origin xyz="0 0 0" rpy="0 0 0"/>
-                <cylinder length="0.05" radius="0.005"/>             </geometry>
-        </visual>
-    </link>
-    <joint name="q0_x" type="fixed">
-        <origin xyz="0 0 0" rpy="0 1.571 0"/>
-        <parent link="link0_passive"/>
-        <child link="link0_x_axis"/>
-    </joint>
+  <!-- ===== Materiales ===== -->
+  <material name="blue"><color rgba="0 0 1 1.0"/></material>
+  <material name="orange"><color rgba="1 0.5 0 1"/></material>
+  <material name="red"><color rgba="1 0 0 1.0"/></material>
+  <material name="green"><color rgba="0 0.5 0 1"/></material>
+  <material name="darkred"><color rgba="0.5 0 0 1"/></material>
 
-    <link name="link1"/>
-    <link name="link1_x_axis">
-        <visual>
-            <origin xyz="0 0 0" rpy="0 0 0"/>             <material name="orange"/>
-            <geometry>
-                <cylinder length="0.05" radius="0.005"/>
-            </geometry>
-        </visual>
-    </link>
-    <joint name="q1" type="revolute">
-        <origin xyz="0 0 0.1" rpy="0 0 0"/>         <parent link="link0_passive"/>
-        <child link="link1"/>
-        <axis xyz="0 0 1"/>
-        <limit effort="411" lower="-1.5" upper="1.5" velocity="1.57"/>
-    </joint>
-    <joint name="q1_passive" type="fixed">
-        <origin xyz="2 0 0" rpy="0 0 0"/>         <parent link="link1"/>
-        <child link="link1_passive"/>
-    </joint>
-    <link name="link1_passive">
-        <visual>
-            <material name="blue"/>
-            <geometry>
-                <cylinder length="2.0" radius="0.05"/>             </geometry>
-            <origin xyz="-1.0 0 0" rpy="0 1.5708 0"/>         </visual>
-    </link>
-    <joint name="q1_x" type="fixed">
-        <origin xyz="0 0 0" rpy="0 1.571 0"/>
-        <parent link="link1_passive"/>
-        <child link="link1_x_axis"/>
-    </joint>
+  <!-- ===== Mundo ===== -->
+  <link name="world"/>
 
-    <link name="link2"/>
-    <link name="link2_x_axis">
-        <visual>
-            <origin xyz="0 0 0" rpy="0 0 0"/>             <material name="orange"/>
-            <geometry>
-                <cylinder length="0.05" radius="0.005"/>
-            </geometry>
-        </visual>
-    </link>
-    <joint name="q2" type="revolute">
-        <origin xyz="0 0 0" rpy="0 0 0"/>         <parent link="link1_passive"/>
-        <child link="link2"/>
-        <axis xyz="0 0 1"/>
-        <limit effort="411" lower="-1.5" upper="1.5" velocity="1.57"/>
-    </joint>
-    <joint name="q2_passive" type="fixed">
-        <origin xyz="1.5 0 0" rpy="0 0 0"/>         <parent link="link2"/>
-        <child link="link2_passive"/>
-    </joint>
-    <link name="link2_passive">
-        <visual>
-            <material name="red"/>             <geometry>
-                <cylinder length="1.5" radius="0.05"/>             </geometry>
-            <origin xyz="-0.75 0 0" rpy="0 1.5708 0"/>         </visual>
-    </link>
-    <joint name="q2_x" type="fixed">
-        <origin xyz="0 0 0" rpy="0 1.571 0"/>
-        <parent link="link2_passive"/>
-        <child link="link2_x_axis"/>
-    </joint>
+  <!-- ===================== ROBOT 1 (en el origen) ===================== -->
+  <joint name="world_to_r1" type="fixed">
+    <parent link="world"/>
+    <child link="r1_link0_passive"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
 
-    <link name="link3"/>
-    <link name="link3_x_axis">
-        <visual>
-            <origin xyz="0 0 0" rpy="0 0 0"/>             <material name="red"/>
-            <geometry>
-                <cylinder length="0.05" radius="0.005"/>
-            </geometry>
-        </visual>
-    </link>
-    <joint name="q3" type="revolute">
-        <origin xyz="0 0 0" rpy="0 0 0"/>         <parent link="link2_passive"/>
-        <child link="link3"/>
-        <axis xyz="0 0 1"/>
-        <limit effort="411" lower="-1.5" upper="1.5" velocity="1.57"/>
-    </joint>
-    <joint name="q3_passive" type="fixed">
-        <origin xyz="0.8 0 0" rpy="0 0 0"/>         <parent link="link3"/>
-        <child link="link3_passive"/>
-    </joint>
-    <link name="link3_passive">
-        <visual>
-            <material name="blue"/>
-            <geometry>
-                <cylinder length="0.8" radius="0.05"/>             </geometry>
-            <origin xyz="-0.4 0 0" rpy="0 1.5708 0"/>         </visual>
-    </link>
-    <joint name="q3_x" type="fixed">
-        <origin xyz="0 0 0" rpy="0 1.571 0"/>
-        <parent link="link3_passive"/>
-        <child link="link3_x_axis"/>
-    </joint>
+  <link name="r1_link0_passive">
+    <visual>
+      <material name="orange"/>
+      <geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <cylinder length="0.2" radius="0.15"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="r1_link0_x_axis">
+    <visual>
+      <material name="orange"/>
+      <geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <cylinder length="0.05" radius="0.005"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="r1_q0_x" type="fixed">
+    <origin xyz="0 0 0" rpy="0 1.571 0"/>
+    <parent link="r1_link0_passive"/>
+    <child link="r1_link0_x_axis"/>
+  </joint>
+
+  <link name="r1_link1"/>
+  <link name="r1_link1_x_axis">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="orange"/>
+      <geometry><cylinder length="0.05" radius="0.005"/></geometry>
+    </visual>
+  </link>
+
+  <joint name="r1_q1" type="revolute">
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    <parent link="r1_link0_passive"/>
+    <child link="r1_link1"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="411" lower="-1.5" upper="1.5" velocity="1.57"/>
+  </joint>
+
+  <joint name="r1_q1_passive" type="fixed">
+    <origin xyz="2 0 0" rpy="0 0 0"/>
+    <parent link="r1_link1"/>
+    <child link="r1_link1_passive"/>
+  </joint>
+
+  <link name="r1_link1_passive">
+    <visual>
+      <material name="blue"/>
+      <geometry><cylinder length="2.0" radius="0.05"/></geometry>
+      <origin xyz="-1.0 0 0" rpy="0 1.5708 0"/>
+    </visual>
+  </link>
+
+  <joint name="r1_q1_x" type="fixed">
+    <origin xyz="0 0 0" rpy="0 1.571 0"/>
+    <parent link="r1_link1_passive"/>
+    <child link="r1_link1_x_axis"/>
+  </joint>
+
+  <link name="r1_link2"/>
+  <link name="r1_link2_x_axis">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="orange"/>
+      <geometry><cylinder length="0.05" radius="0.005"/></geometry>
+    </visual>
+  </link>
+
+  <joint name="r1_q2" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="r1_link1_passive"/>
+    <child link="r1_link2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="411" lower="-1.5" upper="1.5" velocity="1.57"/>
+  </joint>
+
+  <joint name="r1_q2_passive" type="fixed">
+    <origin xyz="1.5 0 0" rpy="0 0 0"/>
+    <parent link="r1_link2"/>
+    <child link="r1_link2_passive"/>
+  </joint>
+
+  <link name="r1_link2_passive">
+    <visual>
+      <material name="red"/>
+      <geometry><cylinder length="1.5" radius="0.05"/></geometry>
+      <origin xyz="-0.75 0 0" rpy="0 1.5708 0"/>
+    </visual>
+  </link>
+
+  <joint name="r1_q2_x" type="fixed">
+    <origin xyz="0 0 0" rpy="0 1.571 0"/>
+    <parent link="r1_link2_passive"/>
+    <child link="r1_link2_x_axis"/>
+  </joint>
+
+  <link name="r1_link3"/>
+  <link name="r1_link3_x_axis">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="red"/>
+      <geometry><cylinder length="0.05" radius="0.005"/></geometry>
+    </visual>
+  </link>
+
+  <joint name="r1_q3" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="r1_link2_passive"/>
+    <child link="r1_link3"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="411" lower="-1.5" upper="1.5" velocity="1.57"/>
+  </joint>
+
+  <joint name="r1_q3_passive" type="fixed">
+    <origin xyz="0.8 0 0" rpy="0 0 0"/>
+    <parent link="r1_link3"/>
+    <child link="r1_link3_passive"/>
+  </joint>
+
+  <link name="r1_link3_passive">
+    <visual>
+      <material name="blue"/>
+      <geometry><cylinder length="0.8" radius="0.05"/></geometry>
+      <origin xyz="-0.4 0 0" rpy="0 1.5708 0"/>
+    </visual>
+  </link>
+
+  <joint name="r1_q3_x" type="fixed">
+    <origin xyz="0 0 0" rpy="0 1.571 0"/>
+    <parent link="r1_link3_passive"/>
+    <child link="r1_link3_x_axis"/>
+  </joint>
+
+  <!-- ===================== ROBOT 2 (desplazado +3 en X) ===================== -->
+  <joint name="world_to_r2" type="fixed">
+    <parent link="world"/>
+    <child link="r2_link0_passive"/>
+    <origin xyz="3 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="r2_link0_passive">
+    <visual>
+      <material name="blue"/>
+      <geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <cylinder length="0.0" radius="0.0"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="r2_link0_x_axis">
+    <visual>
+      <material name="red"/>
+      <geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <cylinder length="0.0" radius="0.0"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="r2_q0_x" type="fixed">
+    <origin xyz="0 0 0" rpy="0 1.571 0"/>
+    <parent link="r2_link0_passive"/>
+    <child link="r2_link0_x_axis"/>
+  </joint>
+
+  <link name="r2_link1"/>
+  <link name="r2_link1_x_axis">
+    <visual>
+      <origin xyz="0 0 0.25" rpy="0 0 0"/>
+      <material name="red"/>
+      <geometry><cylinder length="0.5" radius="0.05"/></geometry>
+    </visual>
+  </link>
+
+  <!-- 🔁 ESTA será la única rotación EN X -->
+  <joint name="r2_q1" type="revolute">
+    <origin xyz="0 0 0.5" rpy="0 0 0"/>
+    <parent link="r2_link0_passive"/>
+    <child link="r2_link1"/>
+    <axis xyz="1 0 0"/>  <!-- rotación en X -->
+    <limit effort="87" lower="-2.9671" upper="2.9671" velocity="2.1750"/>
+  </joint>
+
+  <joint name="r2_q1_passive" type="fixed">
+    <origin xyz="0 0 0" rpy="1.5707963267948966 0 0"/>
+    <parent link="r2_link1"/>
+    <child link="r2_link1_passive"/>
+  </joint>
+
+  <link name="r2_link1_passive">
+    <visual>
+      <origin xyz="0 0 0.25" rpy="0 0 0"/>
+      <material name="blue"/>
+      <geometry><cylinder length="0.5" radius="0.05"/></geometry>
+    </visual>
+  </link>
+
+  <joint name="r2_q1_x" type="fixed">
+    <origin xyz="0 0 0" rpy="0 1.571 0"/>
+    <parent link="r2_link1_passive"/>
+    <child link="r2_link1_x_axis"/>
+  </joint>
+
+  <link name="r2_link2"/>
+  <link name="r2_link2_x_axis">
+    <visual>
+      <origin xyz="0 0 0.25" rpy="0 0 0"/>
+      <material name="red"/>
+      <geometry><cylinder length="0.5" radius="0.05"/></geometry>
+    </visual>
+  </link>
+
+  <joint name="r2_q2" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="r2_link1_passive"/>
+    <child link="r2_link2"/>
+    <axis xyz="0 0 1"/>  <!-- Z -->
+    <limit effort="87" lower="-2.9671" upper="2.9671" velocity="2.1750"/>
+  </joint>
+
+  <joint name="r2_q2_passive" type="fixed">
+    <origin xyz="1.3 0 0" rpy="0 0 0"/>
+    <parent link="r2_link2"/>
+    <child link="r2_link2_passive"/>
+  </joint>
+
+  <link name="r2_link2_passive">
+    <visual>
+      <origin xyz="0 0 0.25" rpy="0 0 0"/>
+      <material name="blue"/>
+      <geometry><cylinder length="0.5" radius="0.05"/></geometry>
+    </visual>
+  </link>
+
+  <joint name="r2_q2_x" type="fixed">
+    <origin xyz="0 0 0" rpy="0 1.571 0"/>
+    <parent link="r2_link2_passive"/>
+    <child link="r2_link2_x_axis"/>
+  </joint>
+
+  <link name="r2_link3"/>
+  <link name="r2_link3_x_axis">
+    <visual>
+      <origin xyz="0 0 0.25" rpy="0 0 0"/>
+      <material name="red"/>
+      <geometry><cylinder length="0.5" radius="0.05"/></geometry>
+    </visual>
+  </link>
+
+  <joint name="r2_q3" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="r2_link2_passive"/>
+    <child link="r2_link3"/>
+    <axis xyz="0 0 1"/>  <!-- Z -->
+    <limit effort="87" lower="-2.9671" upper="2.9671" velocity="2.1750"/>
+  </joint>
+
+  <joint name="r2_q3_passive" type="fixed">
+    <origin xyz="0.9 0 0" rpy="0 0 0"/>
+    <parent link="r2_link3"/>
+    <child link="r2_link3_passive"/>
+  </joint>
+
+  <link name="r2_link3_passive">
+    <visual>
+      <origin xyz="0 0 0.25" rpy="0 0 0"/>
+      <material name="blue"/>
+      <geometry><cylinder length="0.5" radius="0.05"/></geometry>
+    </visual>
+  </link>
+
+  <joint name="r2_q3_x" type="fixed">
+    <origin xyz="0 0 0" rpy="0 1.571 0"/>
+    <parent link="r2_link3_passive"/>
+    <child link="r2_link3_x_axis"/>
+  </joint>
+
 </robot>

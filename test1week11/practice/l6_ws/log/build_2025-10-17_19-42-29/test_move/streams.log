@@ -1,0 +1,26 @@
+[0.027s] Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move -- -j12 -l12
+[0.084s] [ 33%] Built target hello_moveit
+[0.085s] [ 66%] Built target draw_a
+[0.088s] [100%] Built target collition
+[0.221s] Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move -- -j12 -l12
+[0.222s] Invoking command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move
+[0.240s] -- Install configuration: ""
+[0.241s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/test_move/hello_moveit
+[0.242s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/test_move/collition
+[0.258s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/lib/test_move/draw_a
+[0.258s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/ament_index/resource_index/package_run_dependencies/test_move
+[0.259s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/ament_index/resource_index/parent_prefix_path/test_move
+[0.260s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/environment/ament_prefix_path.sh
+[0.261s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/environment/ament_prefix_path.dsv
+[0.261s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/environment/path.sh
+[0.261s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/environment/path.dsv
+[0.261s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/local_setup.bash
+[0.262s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/local_setup.sh
+[0.262s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/local_setup.zsh
+[0.262s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/local_setup.dsv
+[0.262s] -- Installing: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.dsv
+[0.268s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/ament_index/resource_index/packages/test_move
+[0.269s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/cmake/test_moveConfig.cmake
+[0.269s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/cmake/test_moveConfig-version.cmake
+[0.270s] -- Up-to-date: /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/test_move/share/test_move/package.xml
+[0.273s] Invoked command in '/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/install/visual_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/test1week11/practice/l6_ws/build/test_move
