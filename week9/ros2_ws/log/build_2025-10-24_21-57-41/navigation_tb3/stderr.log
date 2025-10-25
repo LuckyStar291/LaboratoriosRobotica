@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3/ament_cmake_python/navigation_tb3/navigation_tb3' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_navigation_tb3.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_navigation_tb3] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/ament_cmake_python_symlink_navigation_tb3.dir/all] Error 2
+gmake[1]: *** Se espera a que terminen otras tareas....
+gmake: *** [Makefile:146: all] Error 2

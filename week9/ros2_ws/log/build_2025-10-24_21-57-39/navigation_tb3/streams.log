@@ -1,0 +1,8 @@
+[0.011s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3 -- -j12 -l12
+[0.057s] failed to create symbolic link '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3/ament_cmake_python/navigation_tb3/navigation_tb3' because existing path cannot be removed: Is a directory
+[0.058s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_navigation_tb3.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_navigation_tb3] Error 1
+[0.058s] gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/ament_cmake_python_symlink_navigation_tb3.dir/all] Error 2
+[0.058s] gmake[1]: *** Se espera a que terminen otras tareas....
+[0.066s] [100%] Built target pub_occupancy_grid
+[0.067s] gmake: *** [Makefile:146: all] Error 2
+[0.069s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3 -- -j12 -l12

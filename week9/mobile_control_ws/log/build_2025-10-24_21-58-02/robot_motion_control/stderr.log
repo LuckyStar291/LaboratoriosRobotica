@@ -1,0 +1,5 @@
+  File "/home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages/robot_motion_control/read_lidar.py", line 70
+    rclpy.init(args=args)s
+                         ^
+SyntaxError: invalid syntax
+

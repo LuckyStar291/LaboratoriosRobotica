@@ -1,0 +1,1 @@
+Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2 -- -j12 -l12

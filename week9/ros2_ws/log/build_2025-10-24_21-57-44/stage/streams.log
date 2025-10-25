@@ -1,0 +1,14 @@
+[0.012s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage': /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage -- -j12 -l12
+[0.072s] [ 57%] Built target stage
+[0.100s] [ 61%] Built target source
+[0.100s] [ 64%] Built target pioneer_flocking
+[0.101s] [ 67%] Built target wander
+[0.101s] [ 71%] Built target stagebinary
+[0.102s] [ 74%] Built target fasr
+[0.102s] [ 79%] Built target fasr2
+[0.103s] [ 83%] Built target rasterize
+[0.104s] [ 86%] Built target dynamic
+[0.107s] [ 89%] Built target lasernoise
+[0.107s] [ 93%] Built target sink
+[0.108s] [ 96%] Built target expand_swarm
+[0.109s] [100%] Built target expand_pioneer
