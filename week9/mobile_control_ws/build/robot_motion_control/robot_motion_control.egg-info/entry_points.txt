@@ -1,0 +1,4 @@
+[console_scripts]
+control_robot = robot_motion_control.pub_cmd:main
+read_lidar = robot_motion_control.read_lidar:main
+

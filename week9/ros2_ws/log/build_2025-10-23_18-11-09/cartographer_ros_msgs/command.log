@@ -1,0 +1,4 @@
+Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_ros_msgs -- -j12 -l12
+Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_ros_msgs -- -j12 -l12
+Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_ros_msgs
+Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_ros_msgs

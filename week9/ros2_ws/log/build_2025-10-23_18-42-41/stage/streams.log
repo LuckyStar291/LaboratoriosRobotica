@@ -1,0 +1,58 @@
+[0.012s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage': /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/Stage -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage
+[0.025s] -- Stage version 4.3.0
+[0.025s] -- Operating system is Linux
+[0.025s] -- Installing Libraries to /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib
+[0.025s] -- Installing Plugins to /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3
+[0.026s] -- Build type RELEASE
+[0.026s] -- Checking for libtool
+[0.026s] -- Checking for required libraries...
+[0.076s] -- Checking for optional libraries...
+[0.076s] -- Installation path CMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage
+[0.076s] -- Configuring libstage
+[0.081s] -- Checking for one of the modules 'playercore>=2.1.0'
+[0.084s] --   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.
+[0.090s] -- Configuring done
+[0.119s] -- Generating done
+[0.125s] -- Build files have been written to: /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage
+[0.129s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage' returned '0': /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/Stage -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage
+[0.131s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage': /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage -- -j12 -l12
+[0.180s] [35m[1mConsolidate compiler generated dependencies of target stage[0m
+[0.211s] [  1%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o[0m
+[0.886s] [  3%] [32m[1mLinking CXX shared library libstage.so[0m
+[0.993s] [ 57%] Built target stage
+[1.003s] [35m[1mConsolidate compiler generated dependencies of target pioneer_flocking[0m
+[1.003s] [35m[1mConsolidate compiler generated dependencies of target fasr[0m
+[1.003s] [35m[1mConsolidate compiler generated dependencies of target rasterize[0m
+[1.004s] [35m[1mConsolidate compiler generated dependencies of target lasernoise[0m
+[1.005s] [35m[1mConsolidate compiler generated dependencies of target source[0m
+[1.005s] [35m[1mConsolidate compiler generated dependencies of target expand_swarm[0m
+[1.005s] [35m[1mConsolidate compiler generated dependencies of target expand_pioneer[0m
+[1.006s] [35m[1mConsolidate compiler generated dependencies of target sink[0m
+[1.006s] [35m[1mConsolidate compiler generated dependencies of target fasr2[0m
+[1.007s] [35m[1mConsolidate compiler generated dependencies of target stagebinary[0m
+[1.007s] [35m[1mConsolidate compiler generated dependencies of target dynamic[0m
+[1.010s] [35m[1mConsolidate compiler generated dependencies of target wander[0m
+[1.016s] [ 59%] [32m[1mLinking CXX shared module rasterize.so[0m
+[1.016s] [ 62%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[1.016s] [ 62%] [32m[1mLinking CXX shared module fasr.so[0m
+[1.020s] [ 64%] [32m[1mLinking CXX shared module dynamic.so[0m
+[1.020s] [ 67%] [32m[1mLinking CXX shared module source.so[0m
+[1.020s] [ 67%] [32m[1mLinking CXX shared module sink.so[0m
+[1.020s] [ 69%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[1.020s] [ 71%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[1.021s] [ 72%] [32m[1mLinking CXX executable stage[0m
+[1.023s] [ 74%] [32m[1mLinking CXX shared module wander.so[0m
+[1.025s] [ 76%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[1.032s] [ 77%] [32m[1mLinking CXX shared module fasr2.so[0m
+[1.149s] [ 79%] Built target rasterize
+[1.151s] [ 81%] Built target dynamic
+[1.154s] [ 83%] Built target wander
+[1.158s] [ 86%] Built target source
+[1.159s] [ 86%] Built target lasernoise
+[1.163s] [ 88%] Built target expand_swarm
+[1.166s] [ 89%] Built target fasr
+[1.178s] [ 91%] Built target stagebinary
+[1.188s] [ 93%] Built target pioneer_flocking
+[1.198s] [ 94%] Built target expand_pioneer
+[1.198s] [ 96%] Built target sink
+[1.215s] [100%] Built target fasr2

@@ -1,0 +1,8 @@
+[0.015s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_ros_msgs -- -j12 -l12
+[0.075s] failed to create symbolic link '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_ros_msgs/ament_cmake_python/cartographer_ros_msgs/cartographer_ros_msgs' because existing path cannot be removed: Is a directory
+[0.075s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_cartographer_ros_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_cartographer_ros_msgs] Error 1
+[0.076s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_cartographer_ros_msgs.dir/all] Error 2
+[0.076s] gmake[1]: *** Se espera a que terminen otras tareas....
+[0.080s] [ 12%] Built target cartographer_ros_msgs__rosidl_generator_c
+[0.080s] [ 12%] Built target cartographer_ros_msgs__cpp
+[0.081s] gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/robot_motion_control/robot_motion_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_motion_control/robot_motion_control.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_motion_control/robot_motion_control.egg-info/entry_points.txt
+writing requirements to ../../build/robot_motion_control/robot_motion_control.egg-info/requires.txt
+writing top-level names to ../../build/robot_motion_control/robot_motion_control.egg-info/top_level.txt
+reading manifest file '../../build/robot_motion_control/robot_motion_control.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/robot_motion_control/robot_motion_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages/robot_motion_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_motion_control/robot_motion_control.egg-info to /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages/robot_motion_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control_robot script to /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/robot_motion_control
+Installing read_lidar script to /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/robot_motion_control
+writing list of installed files to '/home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/install.log'

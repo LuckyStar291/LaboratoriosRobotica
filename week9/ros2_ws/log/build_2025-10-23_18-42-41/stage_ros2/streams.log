@@ -1,0 +1,33 @@
+[0.014s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2:/opt/ros/humble:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/navigation_tb3:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_rviz:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros:/home/luz/Escritorio/Robotica/week9/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage_ros2
+[0.023s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.135s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.140s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.159s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.160s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.164s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.199s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.200s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.330s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.349s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.375s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.386s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.431s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.435s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.436s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.437s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.446s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.510s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.510s] -- Configured cppcheck include dirs: /home/luz/Escritorio/Robotica/week9/ros2_ws/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/luz/Escritorio/Robotica/week9/ros2_ws/src/stage_ros2/include>
+[0.510s] -- Configured cppcheck exclude dirs and/or files: 
+[0.511s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.511s] -- Added test 'lint_cmake' to check CMake code style
+[0.512s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.514s] -- Added test 'uncrustify' to check C / C++ code style
+[0.514s] -- Configured uncrustify additional arguments: 
+[0.515s] -- Added test 'xmllint' to check XML markup files
+[0.515s] -- Configuring done
+[0.529s] -- Generating done
+[0.533s] -- Build files have been written to: /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage_ros2

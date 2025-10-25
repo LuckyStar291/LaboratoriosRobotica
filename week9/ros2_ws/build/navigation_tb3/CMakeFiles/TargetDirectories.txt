@@ -1,7 +1,7 @@
 /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3/CMakeFiles/uninstall.dir
 /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3/CMakeFiles/navigation_tb3_uninstall.dir
 /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3/CMakeFiles/pub_occupancy_grid.dir
-/home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3/CMakeFiles/ament_cmake_python_copy_navigation_tb3.dir
+/home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3/CMakeFiles/ament_cmake_python_symlink_navigation_tb3.dir
 /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3/CMakeFiles/ament_cmake_python_build_navigation_tb3_egg.dir
 /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3/CMakeFiles/test.dir
 /home/luz/Escritorio/Robotica/week9/ros2_ws/build/navigation_tb3/CMakeFiles/edit_cache.dir

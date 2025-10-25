@@ -1,0 +1,62 @@
+[0.012s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage': /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/Stage -DOpenGL_GL_PREFERENCE=LEGACY -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage
+[0.028s] -- Stage version 4.3.0
+[0.028s] -- Operating system is Linux
+[0.028s] -- Installing Libraries to /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib
+[0.028s] -- Installing Plugins to /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3
+[0.028s] -- Build type RELEASE
+[0.029s] -- Checking for libtool
+[0.029s] -- Checking for required libraries...
+[0.118s] -- Checking for optional libraries...
+[0.119s] -- Installation path CMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage
+[0.119s] -- Configuring libstage
+[0.127s] -- Checking for one of the modules 'playercore>=2.1.0'
+[0.129s] --   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.
+[0.138s] -- Configuring done
+[0.197s] -- Generating done
+[0.207s] -- Build files have been written to: /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage
+[0.210s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage' returned '0': /usr/bin/cmake /home/luz/Escritorio/Robotica/week9/ros2_ws/src/Stage -DOpenGL_GL_PREFERENCE=LEGACY -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage
+[0.212s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage': /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage -- -j12 -l12
+[0.265s] [35m[1mConsolidate compiler generated dependencies of target stage[0m
+[0.307s] [  1%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o[0m
+[0.309s] [  3%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o[0m
+[0.312s] [  5%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o[0m
+[0.312s] [  6%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o[0m
+[1.834s] [  8%] [32m[1mLinking CXX shared library libstage.so[0m
+[1.945s] [ 57%] Built target stage
+[1.965s] [35m[1mConsolidate compiler generated dependencies of target sink[0m
+[1.965s] [35m[1mConsolidate compiler generated dependencies of target fasr[0m
+[1.965s] [35m[1mConsolidate compiler generated dependencies of target stagebinary[0m
+[1.965s] [35m[1mConsolidate compiler generated dependencies of target pioneer_flocking[0m
+[1.971s] [35m[1mConsolidate compiler generated dependencies of target lasernoise[0m
+[1.971s] [35m[1mConsolidate compiler generated dependencies of target dynamic[0m
+[1.971s] [35m[1mConsolidate compiler generated dependencies of target rasterize[0m
+[1.971s] [35m[1mConsolidate compiler generated dependencies of target fasr2[0m
+[1.971s] [35m[1mConsolidate compiler generated dependencies of target source[0m
+[1.971s] [35m[1mConsolidate compiler generated dependencies of target wander[0m
+[1.973s] [35m[1mConsolidate compiler generated dependencies of target expand_swarm[0m
+[1.981s] [35m[1mConsolidate compiler generated dependencies of target expand_pioneer[0m
+[1.982s] [ 59%] [32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o[0m
+[1.985s] [ 61%] [32m[1mLinking CXX shared module sink.so[0m
+[1.985s] [ 62%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[1.985s] [ 64%] [32m[1mLinking CXX shared module fasr.so[0m
+[1.986s] [ 66%] [32m[1mLinking CXX shared module fasr2.so[0m
+[1.986s] [ 67%] [32m[1mLinking CXX shared module dynamic.so[0m
+[1.989s] [ 69%] [32m[1mLinking CXX shared module rasterize.so[0m
+[1.996s] [ 71%] [32m[1mLinking CXX shared module wander.so[0m
+[1.997s] [ 72%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[1.997s] [ 74%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[1.998s] [ 76%] [32m[1mLinking CXX shared module source.so[0m
+[2.003s] [ 77%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[2.127s] [ 79%] Built target rasterize
+[2.128s] [ 81%] Built target wander
+[2.130s] [ 83%] Built target pioneer_flocking
+[2.130s] [ 84%] Built target fasr
+[2.130s] [ 88%] Built target fasr2
+[2.134s] [ 89%] Built target expand_swarm
+[2.134s] [ 91%] Built target sink
+[2.143s] [ 93%] Built target dynamic
+[2.151s] [ 94%] Built target source
+[2.156s] [ 96%] Built target lasernoise
+[2.171s] [ 98%] Built target expand_pioneer
+[2.607s] [100%] [32m[1mLinking CXX executable stage[0m
+[2.691s] [100%] Built target stagebinary

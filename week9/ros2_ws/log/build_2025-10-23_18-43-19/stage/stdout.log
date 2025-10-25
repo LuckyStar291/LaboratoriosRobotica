@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target stage[0m
+[ 57%] Built target stage
+[ 64%] Built target source
+[ 64%] Built target stagebinary
+[ 67%] Built target fasr
+[ 74%] Built target pioneer_flocking
+[ 72%] Built target lasernoise
+[ 77%] Built target rasterize
+[ 81%] Built target wander
+[ 84%] Built target dynamic
+[ 88%] Built target expand_swarm
+[ 93%] Built target fasr2
+[ 96%] Built target sink
+[100%] Built target expand_pioneer

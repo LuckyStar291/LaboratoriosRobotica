@@ -211,17 +211,17 @@ pub_occupancy_grid/fast:
 .PHONY : pub_occupancy_grid/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_navigation_tb3
+# Target rules for targets named ament_cmake_python_symlink_navigation_tb3
 
 # Build rule for target.
-ament_cmake_python_copy_navigation_tb3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_navigation_tb3
-.PHONY : ament_cmake_python_copy_navigation_tb3
+ament_cmake_python_symlink_navigation_tb3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_navigation_tb3
+.PHONY : ament_cmake_python_symlink_navigation_tb3
 
 # fast build rule for target.
-ament_cmake_python_copy_navigation_tb3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_navigation_tb3.dir/build.make CMakeFiles/ament_cmake_python_copy_navigation_tb3.dir/build
-.PHONY : ament_cmake_python_copy_navigation_tb3/fast
+ament_cmake_python_symlink_navigation_tb3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_navigation_tb3.dir/build.make CMakeFiles/ament_cmake_python_symlink_navigation_tb3.dir/build
+.PHONY : ament_cmake_python_symlink_navigation_tb3/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_navigation_tb3_egg
@@ -274,7 +274,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_navigation_tb3_egg"
-	@echo "... ament_cmake_python_copy_navigation_tb3"
+	@echo "... ament_cmake_python_symlink_navigation_tb3"
 	@echo "... navigation_tb3_uninstall"
 	@echo "... uninstall"
 	@echo "... pub_occupancy_grid"

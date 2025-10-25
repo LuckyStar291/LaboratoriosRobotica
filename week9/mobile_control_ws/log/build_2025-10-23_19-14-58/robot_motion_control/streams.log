@@ -1,0 +1,42 @@
+[0.629s] Invoking command in '/home/luz/Escritorio/Robotica/week9/mobile_control_ws/src/robot_motion_control': PYTHONPATH=/home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_motion_control build --build-base /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/build install --record /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/install.log --single-version-externally-managed install_data
+[0.779s] running egg_info
+[0.779s] creating ../../build/robot_motion_control/robot_motion_control.egg-info
+[0.779s] writing ../../build/robot_motion_control/robot_motion_control.egg-info/PKG-INFO
+[0.779s] writing dependency_links to ../../build/robot_motion_control/robot_motion_control.egg-info/dependency_links.txt
+[0.779s] writing entry points to ../../build/robot_motion_control/robot_motion_control.egg-info/entry_points.txt
+[0.779s] writing requirements to ../../build/robot_motion_control/robot_motion_control.egg-info/requires.txt
+[0.780s] writing top-level names to ../../build/robot_motion_control/robot_motion_control.egg-info/top_level.txt
+[0.780s] writing manifest file '../../build/robot_motion_control/robot_motion_control.egg-info/SOURCES.txt'
+[0.781s] reading manifest file '../../build/robot_motion_control/robot_motion_control.egg-info/SOURCES.txt'
+[0.781s] adding license file 'LICENSE'
+[0.781s] writing manifest file '../../build/robot_motion_control/robot_motion_control.egg-info/SOURCES.txt'
+[0.781s] running build
+[0.781s] running build_py
+[0.781s] creating /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/build
+[0.781s] creating /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/build/lib
+[0.781s] creating /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/build/lib/robot_motion_control
+[0.781s] copying robot_motion_control/__init__.py -> /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/build/lib/robot_motion_control
+[0.782s] copying robot_motion_control/read_lidar.py -> /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/build/lib/robot_motion_control
+[0.782s] copying robot_motion_control/pub_cmd.py -> /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/build/lib/robot_motion_control
+[0.782s] running install
+[0.782s] running install_lib
+[0.782s] creating /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages/robot_motion_control
+[0.782s] copying /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/build/lib/robot_motion_control/__init__.py -> /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages/robot_motion_control
+[0.782s] copying /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/build/lib/robot_motion_control/read_lidar.py -> /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages/robot_motion_control
+[0.782s] copying /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/build/lib/robot_motion_control/pub_cmd.py -> /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages/robot_motion_control
+[0.783s] byte-compiling /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages/robot_motion_control/__init__.py to __init__.cpython-310.pyc
+[0.783s] byte-compiling /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages/robot_motion_control/read_lidar.py to read_lidar.cpython-310.pyc
+[0.783s] byte-compiling /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages/robot_motion_control/pub_cmd.py to pub_cmd.cpython-310.pyc
+[0.783s] running install_data
+[0.783s] creating /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/share/ament_index
+[0.784s] creating /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/share/ament_index/resource_index
+[0.784s] creating /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/share/ament_index/resource_index/packages
+[0.784s] copying resource/robot_motion_control -> /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/share/ament_index/resource_index/packages
+[0.784s] copying package.xml -> /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/share/robot_motion_control
+[0.784s] running install_egg_info
+[0.785s] Copying ../../build/robot_motion_control/robot_motion_control.egg-info to /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages/robot_motion_control-0.0.0-py3.10.egg-info
+[0.785s] running install_scripts
+[0.799s] Installing control_robot script to /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/robot_motion_control
+[0.799s] Installing read_lidar script to /home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/robot_motion_control
+[0.799s] writing list of installed files to '/home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/install.log'
+[0.814s] Invoked command in '/home/luz/Escritorio/Robotica/week9/mobile_control_ws/src/robot_motion_control' returned '0': PYTHONPATH=/home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luz/Escritorio/Robotica/week9/mobile_control_ws/install/robot_motion_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_motion_control build --build-base /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/build install --record /home/luz/Escritorio/Robotica/week9/mobile_control_ws/build/robot_motion_control/install.log --single-version-externally-managed install_data

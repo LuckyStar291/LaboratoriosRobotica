@@ -1,0 +1,8 @@
+failed to create symbolic link '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/cartographer_ros_msgs/ament_cmake_python/cartographer_ros_msgs/cartographer_ros_msgs' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_cartographer_ros_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_cartographer_ros_msgs] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_cartographer_ros_msgs.dir/all] Error 2
+gmake[1]: *** Se espera a que terminen otras tareas....
+[35m[1mConsolidate compiler generated dependencies of target cartographer_ros_msgs__rosidl_generator_c[0m
+[  0%] Built target cartographer_ros_msgs__cpp
+[ 12%] Built target cartographer_ros_msgs__rosidl_generator_c
+gmake: *** [Makefile:146: all] Error 2

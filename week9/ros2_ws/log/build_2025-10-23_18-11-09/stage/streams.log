@@ -1,0 +1,159 @@
+[0.013s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage': /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage -- -j12 -l12
+[0.081s] [  1%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o[0m
+[0.081s] [  3%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o[0m
+[0.081s] [  5%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o[0m
+[0.083s] [  6%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o[0m
+[1.393s] [  8%] [32m[1mLinking CXX shared library libstage.so[0m
+[1.549s] [ 57%] Built target stage
+[1.607s] [ 61%] [32m[1mLinking CXX shared module sink.so[0m
+[1.607s] [ 61%] [32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o[0m
+[1.608s] [ 62%] [32m[1mLinking CXX shared module fasr.so[0m
+[1.608s] [ 64%] [32m[1mLinking CXX shared module wander.so[0m
+[1.608s] [ 66%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[1.608s] [ 67%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[1.609s] [ 69%] [32m[1mLinking CXX shared module rasterize.so[0m
+[1.609s] [ 72%] [32m[1mLinking CXX shared module dynamic.so[0m
+[1.609s] [ 72%] [32m[1mLinking CXX shared module source.so[0m
+[1.610s] [ 74%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[1.612s] [ 76%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[1.613s] [ 77%] [32m[1mLinking CXX shared module fasr2.so[0m
+[1.700s] [ 79%] Built target rasterize
+[1.732s] [ 81%] Built target wander
+[1.735s] [ 83%] Built target sink
+[1.737s] [ 84%] Built target dynamic
+[1.738s] [ 86%] Built target lasernoise
+[1.741s] [ 88%] Built target source
+[1.741s] [ 89%] Built target fasr
+[1.742s] [ 91%] Built target expand_pioneer
+[1.751s] [ 93%] Built target expand_swarm
+[1.769s] [ 98%] Built target fasr2
+[1.769s] [ 98%] Built target pioneer_flocking
+[2.217s] [100%] [32m[1mLinking CXX executable stage[0m
+[2.298s] [100%] Built target stagebinary
+[2.311s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage' returned '0': /usr/bin/cmake --build /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage -- -j12 -l12
+[2.314s] Invoking command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage': /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage
+[2.325s] -- Install configuration: "RELEASE"
+[2.325s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/pkgconfig/stage.pc
+[2.325s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/cmake/Stage/stage-config.cmake
+[2.326s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/cmake/Stage/stage-config-version.cmake
+[2.327s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/bin/stage
+[2.328s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/bin/stage" to ""
+[2.329s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/libstage.so.4.3.0
+[2.330s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/libstage.so
+[2.330s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/include/Stage-4.3/stage.hh
+[2.332s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/fasr.so
+[2.332s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/fasr.so" to ""
+[2.333s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/sink.so
+[2.333s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/sink.so" to ""
+[2.334s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/source.so
+[2.334s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/source.so" to ""
+[2.334s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/wander.so
+[2.335s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/wander.so" to ""
+[2.335s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/pioneer_flocking.so
+[2.335s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/pioneer_flocking.so" to ""
+[2.335s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/rasterize.so
+[2.336s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/rasterize.so" to ""
+[2.336s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/lasernoise.so
+[2.336s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/lasernoise.so" to ""
+[2.337s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/dynamic.so
+[2.337s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/dynamic.so" to ""
+[2.337s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/fasr2.so
+[2.338s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/fasr2.so" to ""
+[2.339s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/assets/blue.png
+[2.339s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/assets/death.png
+[2.339s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/assets/green.png
+[2.340s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/assets/logo.png
+[2.340s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/assets/mains.png
+[2.340s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/assets/mainspower.png
+[2.340s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/assets/question_mark.png
+[2.340s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/assets/red.png
+[2.340s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/assets/stagelogo.png
+[2.340s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/assets/stall-old.png
+[2.340s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/assets/stall.png
+[2.340s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/assets/rgb.txt
+[2.340s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/rgb.txt
+[2.341s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/amcl-sonar.cfg
+[2.341s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/autolab.cfg
+[2.341s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/camera.cfg
+[2.341s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/everything.cfg
+[2.341s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/lsp_test.cfg
+[2.341s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/mbicp.cfg
+[2.342s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/nd.cfg
+[2.342s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/roomba.cfg
+[2.342s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/simple.cfg
+[2.342s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/test.cfg
+[2.342s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab.cfg
+[2.342s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/vfh.cfg
+[2.342s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wavefront-remote.cfg
+[2.342s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wavefront.cfg
+[2.342s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wifi.cfg
+[2.342s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/SFU.world
+[2.342s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/autolab.world
+[2.342s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/camera.world
+[2.343s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/circuit.world
+[2.343s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/everything.world
+[2.343s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/fasr.world
+[2.343s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/fasr2.world
+[2.343s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/fasr_plan.world
+[2.343s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/large.world
+[2.343s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/lsp_test.world
+[2.343s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/mbicp.world
+[2.343s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/pioneer_flocking.world
+[2.343s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/pioneer_follow.world
+[2.343s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/pioneer_walle.world
+[2.343s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/roomba.world
+[2.344s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/sensor_noise_demo.world
+[2.344s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/sensor_noise_module_demo.world
+[2.344s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/simple.world
+[2.344s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab.world
+[2.344s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wifi.world
+[2.344s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/beacons.inc
+[2.344s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/chatterbox.inc
+[2.344s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/hokuyo.inc
+[2.344s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/irobot.inc
+[2.344s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/map.inc
+[2.344s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/objects.inc
+[2.344s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/pantilt.inc
+[2.345s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/pioneer.inc
+[2.345s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/sick.inc
+[2.345s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/ubot.inc
+[2.345s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab_models.inc
+[2.345s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/walle.inc
+[2.345s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/cfggen.sh
+[2.345s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/test.sh
+[2.345s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/worldgen.sh
+[2.345s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/expand_swarm.so
+[2.346s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/expand_swarm.so" to ""
+[2.346s] -- Installing: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/expand_pioneer.so
+[2.347s] -- Set runtime path of "/home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/lib/Stage-4.3/expand_pioneer.so" to ""
+[2.348s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/889_05.png
+[2.348s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+[2.348s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+[2.348s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/autolab.png
+[2.348s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave.png
+[2.349s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave_compact.png
+[2.349s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave_filled.png
+[2.349s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/frieburg.png
+[2.349s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/ghost.png
+[2.349s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/hospital.png
+[2.349s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/hospital_section.png
+[2.349s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/human_outline.png
+[2.349s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/mbicp.png
+[2.349s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/rink.png
+[2.349s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/sal2.png
+[2.349s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/simple_rooms.png
+[2.350s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/space_invader.png
+[2.350s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/submarine.png
+[2.350s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/submarine_small.png
+[2.350s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/table.png
+[2.350s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+[2.350s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wifi/commando.world
+[2.350s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wifi/hosp_wifi.world
+[2.350s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wifi/hosp_wifi_5.world
+[2.350s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wifi/wifi.world
+[2.350s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_itu.world
+[2.350s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_logdistance.world
+[2.350s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_ray.world
+[2.351s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_simple.world
+[2.351s] -- Up-to-date: /home/luz/Escritorio/Robotica/week9/ros2_ws/install/stage/share/stage/worlds/wifi/map.inc
+[2.353s] Invoked command in '/home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage' returned '0': /usr/bin/cmake --install /home/luz/Escritorio/Robotica/week9/ros2_ws/build/stage
